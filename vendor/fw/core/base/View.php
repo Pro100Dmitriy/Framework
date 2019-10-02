@@ -23,11 +23,13 @@ class View
     $file_view = APP . "/views/{$this->route['controller']}/{$this->route['action']}.php"; // сохраняет путь к контенту
     ob_start();
     if( is_file($file_view) ){ // если это файл
+      debug($file_view);
       // start if
-      require_once $file_view; // подключается файл с разметкой
+      require_once $file_view; // подключается файл с контентом
       // end if
     }else{
-      throw new Exception('Такой вид не найден', 404);
+      debug($file_view);
+      throw new \Exception('Такой вид не найден', 404);
     }
     $content = ob_get_clean(); // сюда записывается контент
     //layout Conect
@@ -37,7 +39,7 @@ class View
       require_once $file_layout; // подключение разметки
       //end if
     }else{
-      throw new Exception('Такой шаблон не найден', 404);
+      throw new \Exception('Такой шаблон не найден', 404);
     }
   }
 

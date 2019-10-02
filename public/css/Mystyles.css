@@ -1,7 +1,7 @@
 .ishopClass{
     display: flex;
 }
-
+ 
 .ishopClass li{
     margin-right: 20px;
     padding: 10px 20px;
@@ -23,7 +23,7 @@
     transform: translateY(-100%);
     background: white;
 }
-.ishopClass:hover
+.ishopClass li:hover:last-child
 .first_child{
     top: 100%;
     opacity: 1;

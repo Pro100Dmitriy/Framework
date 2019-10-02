@@ -57,7 +57,7 @@
 					<?php foreach( $hit as $hit ) : ?>
 					<div class="col-md-3 product-left">
 						<div class="product-main simpleCart_shelfItem">
-							<a href="single.html" class="mask"><img class="img-responsive zoom-img" src="../public/images/<?= $hit->img; ?>" alt="" /></a>
+							<a href="product/<?php echo $hit->alias; ?>" class="mask"><img class="img-responsive zoom-img" src="../public/images/<?= $hit->img; ?>" alt="" /></a>
 							<div class="product-bottom">
 								<h3><?= $hit->title; ?></h3>
 								<p><?= $hit->content; ?></p>

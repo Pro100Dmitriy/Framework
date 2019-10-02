@@ -71,7 +71,7 @@ use app\widgets\currency\Currency;
 	<!--start-logo-->
 	<!--bottom-header-->
 	<div class="header-bottom">
-		<div class="container">
+		<div class="container"> 
 			<div class="header">
 				<div class="col-md-9 header-left">
 					<div class="menu">
@@ -304,6 +304,9 @@ use app\widgets\currency\Currency;
 
 	<!--Scripts-->
 	<script src="../public/js/jquery-1.11.0.min.js"></script>
+	<?php if( !isset($slider) ){
+		$slider = " ";
+	} ?>
 	<?php if( strpos( $slider, 'indexAction' ) ): ?>
 		<script src="../public/js/responsiveslides.min.js"></script>
 		<script>

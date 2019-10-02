@@ -12,8 +12,10 @@ $url = $_SERVER['QUERY_STRING'];
 
 new App();
 
-Router::add('^post/?(?<alias>[a-z-]+)?$', ['controller' => 'post', 'action' => 'view'] );
-Router::add('^$', ['controller' => 'main', 'action' => 'index']);
-Router::add('^(?<controller>[a-z-]+)/?(?<action>[a-z-]+)?$');
+require_once CONFIG . '/Route.php';
+
+//Router::add('^post/?(?<alias>[a-z-]+)?$', ['controller' => 'post', 'action' => 'view'] );
+//Router::add('^$', ['controller' => 'main', 'action' => 'index']);
+//Router::add('^(?<controller>[a-z-]+)/?(?<action>[a-z-]+)?$');
 
 Router::despatch($url);

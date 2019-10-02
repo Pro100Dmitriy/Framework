@@ -13,7 +13,7 @@ class AppController extends Controller
 {
 
     public function __construct($route) // так как задействуется controller то тут доступен $router
-    {
+    {   
         parent::__construct($route);
         new AppModel();
         App::$app->setProperty( 'currencies', Currency::getCurrencies() );

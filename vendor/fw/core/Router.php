@@ -54,12 +54,12 @@ class Router
           $cOBJ->$action(); // вызываетсся метод классы $controller
           $cOBJ->getView(); //вызыввет мето getView() который доступен всем контроллерам и прописан в файле Controller.php
         }else{
-          throw new \Exception('произошла ошибка', 404);
+          throw new \Exception("$action не найден", 404);
         }
 
         // end if
       }else{ // иначе генерируется исключение
-        throw new \Exception('произошла ошибка', 404);
+        throw new \Exception("Класс $controller не найден", 404);
       }
       // end if
     }else{
