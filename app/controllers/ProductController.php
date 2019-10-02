@@ -8,7 +8,9 @@ class ProductController extends AppController
 {
 
   public function viewAction(){
-    //echo "всё ок";
+    $alias = $this->route['alias'];
+    $product = R::findOne('product', "alias = ? AND status = '1'", [$alias]);
+    debug($product);
   }
 
 }
