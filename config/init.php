@@ -11,6 +11,7 @@ define( 'WIDGETS' , dirname(__DIR__) . "/app/widgets" );
 define( 'LAYOUT' , "luxery_watchs" );
 define( 'CACHE', ROOT . '/tmp/cache' );
 define( 'META', "<title>Luxury Watches</title>\n\t<meta charset=\"utf-8\" />" );
+define( 'PATH', '/public' );
 
 
 $RouterAdd = [

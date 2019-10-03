@@ -348,3 +348,69 @@
 #################
 02 October 2019 18:09:16 | Номер: Исключение | Текс: syntax error, unexpected ';', expecting '(' | Файл: C:\OSPanel\domains\Framework\app\views\layout\luxery_watchs.php | Линия: 332
 #################
+03 October 2019 17:54:49 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 14
+#################
+03 October 2019 17:55:27 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 14
+#################
+03 October 2019 17:55:28 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 14
+#################
+03 October 2019 17:55:28 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 14
+#################
+03 October 2019 17:55:57 | Номер: Исключение | Текс: Class 'app\controllers\R' not found | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 12
+#################
+03 October 2019 17:55:58 | Номер: Исключение | Текс: Class 'app\controllers\R' not found | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 12
+#################
+03 October 2019 17:55:58 | Номер: Исключение | Текс: Class 'app\controllers\R' not found | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 12
+#################
+03 October 2019 17:57:54 | Номер: Исключение | Текс: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound | Файл: C:\OSPanel\domains\Framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Линия: 194
+#################
+03 October 2019 17:58:21 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 15
+#################
+03 October 2019 17:58:22 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 15
+#################
+03 October 2019 17:58:22 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 15
+#################
+03 October 2019 17:58:22 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 15
+#################
+03 October 2019 17:59:13 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 16
+#################
+03 October 2019 17:59:14 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 16
+#################
+03 October 2019 17:59:14 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 16
+#################
+03 October 2019 17:59:26 | Номер: Исключение | Текс: Expected array, string given. | Файл: C:\OSPanel\domains\Framework\vendor\gabordemooij\redbean\RedBeanPHP\Finder.php | Линия: 146
+#################
+03 October 2019 17:59:40 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 16
+#################
+03 October 2019 17:59:41 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 16
+#################
+03 October 2019 17:59:47 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 16
+#################
+03 October 2019 17:59:47 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 16
+#################
+03 October 2019 17:59:47 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 16
+#################
+03 October 2019 17:59:56 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 16
+#################
+03 October 2019 17:59:57 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 16
+#################
+03 October 2019 18:00:36 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 16
+#################
+03 October 2019 18:00:37 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 16
+#################
+03 October 2019 18:00:37 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 16
+#################
+03 October 2019 18:00:54 | Номер: Исключение | Текс: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Watches1 AND status = '1'  -- keep-cache' at line 1 | Файл: C:\OSPanel\domains\Framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Линия: 194
+#################
+03 October 2019 18:00:55 | Номер: Исключение | Текс: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Watches1 AND status = '1'  -- keep-cache' at line 1 | Файл: C:\OSPanel\domains\Framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Линия: 194
+#################
+03 October 2019 18:02:58 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 14
+#################
+03 October 2019 18:07:17 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 14
+#################
+03 October 2019 18:07:18 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 14
+#################
+03 October 2019 18:29:10 | Номер: Исключение | Текс: syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) | Файл: C:\OSPanel\domains\Framework\app\views\layout\luxery_watchs.php | Линия: 365
+#################
+03 October 2019 18:35:30 | Номер: Исключение | Текс: Call to undefined function app\controllers\set() | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 13
+#################

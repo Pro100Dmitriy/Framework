@@ -1,4 +1,4 @@
-<!--A Design by W3layouts 
+<!--A Design by W3layouts  
 Author: W3layout
 Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
@@ -12,7 +12,7 @@ use app\widgets\currency\Currency;
 <head>
 	<!-- Meta tags -->
 	<?= $this->getMeta(); ?>
-
+	<base href="/">
 	<link href="../public/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 	<!--theme-style-->
 	<link href="../public/css/style.css" rel="stylesheet" type="text/css" media="all" />	
@@ -21,7 +21,7 @@ use app\widgets\currency\Currency;
 	<meta name="keywords" content="Luxury Watches Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
 	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
 	<link href="../public/css/memenu.css" rel="stylesheet" type="text/css" media="all" />
-	<link href="../public/css/Mystyles.css" rel="stylesheet" type="text/css">
+	<link href="../public/css/Mystyles.css" rel="stylesheet" type="text/css"/>
 			
 </head>
 <body> 
@@ -66,7 +66,7 @@ use app\widgets\currency\Currency;
 	<!--top-header-->
 	<!--start-logo-->
 	<div class="logo">
-		<a href="index.html"><h1>Luxury Watches</h1></a>
+		<a href="<?=PATH?>"><h1>Luxury Watches</h1></a>
 	</div>
 	<!--start-logo-->
 	<!--bottom-header-->
@@ -83,143 +83,6 @@ use app\widgets\currency\Currency;
 						]);
 						?>
 					</div>
-				<!--<div class="top-nav">
-					<ul class="memenu skyblue"><li class="active"><a href="index.html">Home</a></li>
-						<li class="grid"><a href="#">Men</a>
-							<div class="mepanel">
-								<div class="row">
-									<div class="col1 me-one">
-										<h4>Shop</h4>
-										<ul>
-											<li><a href="products.html">New Arrivals</a></li>
-											<li><a href="products.html">Blazers</a></li>
-											<li><a href="products.html">Swem Wear</a></li>
-											<li><a href="products.html">Accessories</a></li>
-											<li><a href="products.html">Handbags</a></li>
-											<li><a href="products.html">T-Shirts</a></li>
-											<li><a href="products.html">Watches</a></li>
-											<li><a href="products.html">My Shopping Bag</a></li>
-										</ul>
-									</div>
-									<div class="col1 me-one">
-										<h4>Style Zone</h4>
-										<ul>
-											<li><a href="products.html">Shoes</a></li>
-											<li><a href="products.html">Watches</a></li>
-											<li><a href="products.html">Brands</a></li>
-											<li><a href="products.html">Coats</a></li>
-											<li><a href="products.html">Accessories</a></li>
-											<li><a href="products.html">Trousers</a></li>
-										</ul>	
-									</div>
-									<div class="col1 me-one">
-										<h4>Popular Brands</h4>
-										<ul>
-											<li><a href="products.html">499 Store</a></li>
-											<li><a href="products.html">Fastrack</a></li>
-											<li><a href="products.html">Casio</a></li>
-											<li><a href="products.html">Fossil</a></li>
-											<li><a href="products.html">Maxima</a></li>
-											<li><a href="products.html">Timex</a></li>
-											<li><a href="products.html">TomTom</a></li>
-											<li><a href="products.html">Titan</a></li>
-										</ul>		
-									</div>
-								</div>
-							</div>
-						</li>
-						<li class="grid"><a href="#">Women</a>
-							<div class="mepanel">
-								<div class="row">
-									<div class="col1 me-one">
-										<h4>Shop</h4>
-										<ul>
-											<li><a href="products.html">New Arrivals</a></li>
-											<li><a href="products.html">Blazers</a></li>
-											<li><a href="products.html">Swem Wear</a></li>
-											<li><a href="products.html">Accessories</a></li>
-											<li><a href="products.html">Handbags</a></li>
-											<li><a href="products.html">T-Shirts</a></li>
-											<li><a href="products.html">Watches</a></li>
-											<li><a href="products.html">My Shopping Bag</a></li>
-										</ul>
-									</div>
-									<div class="col1 me-one">
-										<h4>Style Zone</h4>
-										<ul>
-											<li><a href="products.html">Shoes</a></li>
-											<li><a href="products.html">Watches</a></li>
-											<li><a href="products.html">Brands</a></li>
-											<li><a href="products.html">Coats</a></li>
-											<li><a href="products.html">Accessories</a></li>
-											<li><a href="products.html">Trousers</a></li>
-										</ul>
-									</div>
-									<div class="col1 me-one">
-										<h4>Popular Brands</h4>
-										<ul>
-											<li><a href="products.html">499 Store</a></li>
-											<li><a href="products.html">Fastrack</a></li>
-											<li><a href="products.html">Casio</a></li>
-											<li><a href="products.html">Fossil</a></li>
-											<li><a href="products.html">Maxima</a></li>
-											<li><a href="products.html">Timex</a></li>
-											<li><a href="products.html">TomTom</a></li>
-											<li><a href="products.html">Titan</a></li>
-										</ul>	
-									</div>
-								</div>
-							</div>
-						</li>
-						<li class="grid"><a href="#">Kids</a>
-							<div class="mepanel">
-								<div class="row">
-									<div class="col1 me-one">
-										<h4>Shop</h4>
-										<ul>
-											<li><a href="products.html">New Arrivals</a></li>
-											<li><a href="products.html">Blazers</a></li>
-											<li><a href="products.html">Swem Wear</a></li>
-											<li><a href="products.html">Accessories</a></li>
-											<li><a href="products.html">Handbags</a></li>
-											<li><a href="products.html">T-Shirts</a></li>
-											<li><a href="products.html">Watches</a></li>
-											<li><a href="products.html">My Shopping Bag</a></li>
-										</ul>
-									</div>
-									<div class="col1 me-one">
-										<h4>Style Zone</h4>
-										<ul>
-											<li><a href="products.html">Shoes</a></li>
-											<li><a href="products.html">Watches</a></li>
-											<li><a href="products.html">Brands</a></li>
-											<li><a href="products.html">Coats</a></li>
-											<li><a href="products.html">Accessories</a></li>
-											<li><a href="products.html">Trousers</a></li>
-										</ul>	
-									</div>
-									<div class="col1 me-one">
-										<h4>Popular Brands</h4>
-										<ul>
-											<li><a href="products.html">499 Store</a></li>
-											<li><a href="products.html">Fastrack</a></li>
-											<li><a href="products.html">Casio</a></li>
-											<li><a href="products.html">Fossil</a></li>
-											<li><a href="products.html">Maxima</a></li>
-											<li><a href="products.html">Timex</a></li>
-											<li><a href="products.html">TomTom</a></li>
-											<li><a href="products.html">Titan</a></li>
-										</ul>	
-									</div>
-								</div>
-							</div>
-						</li>
-						<li class="grid"><a href="typo.html">Blog</a>
-						</li>
-						<li class="grid"><a href="contact.html">Contact</a>
-						</li>
-					</ul>
-				</div>-->
 				<div class="clearfix"> </div>
 			</div>
 			<div class="col-md-3 header-right"> 
@@ -304,6 +167,7 @@ use app\widgets\currency\Currency;
 
 	<!--Scripts-->
 	<script src="../public/js/jquery-1.11.0.min.js"></script>
+	<script src="../public/js/imagezoom.js"></script>
 	<?php if( !isset($slider) ){
 		$slider = " ";
 	} ?>
@@ -336,5 +200,65 @@ use app\widgets\currency\Currency;
 	<script>$(document).ready(function(){$(".memenu").memenu();});</script>
 	<script src="../public/js/jquery.easydropdown.js"></script>	
 	<script src="../public/js/main.js"></script>
+
+	<!-- FlexSlider -->
+	
+	<script defer src="../public/js/jquery.flexslider.js"></script>
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+
+	<script>
+	// Can also be used with $(document).ready()
+	$(window).load(function() {
+		$('.flexslider').flexslider({
+		animation: "slide",
+		controlNav: "thumbnails"
+		});
+	});
+	</script>
+
+	<!--product-->
+	<?php if( strpos( $slider, 'viewAction' ) ) :?>
+		<script src="../public/js/jquery-1.11.0.min.js"></script>
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		<!--start-menu-->
+		<script src="../public/js/simpleCart.min.js"> </script>
+		<script type="text/javascript" src="../js/memenu.js"></script>
+		<script>$(document).ready(function(){$(".memenu").memenu();});</script>	
+		<!--dropdown-->
+		<script src="../public/js/jquery.easydropdown.js"></script>	
+		<script type="text/javascript">
+			$(function() {
+			
+			    var menu_ul = $('.menu_drop > li > ul'),
+			           menu_a  = $('.menu_drop > li > a');
+			    
+			    menu_ul.hide();
+			
+			    menu_a.click(function(e) {
+			        e.preventDefault();
+			        if(!$(this).hasClass('active')) {
+			            menu_a.removeClass('active');
+			            menu_ul.filter(':visible').slideUp('normal');
+			            $(this).addClass('active').next().stop(true,true).slideDown('normal');
+			        } else {
+			            $(this).removeClass('active');
+			            $(this).next().stop(true,true).slideUp('normal');
+			        }
+			    });
+			
+			});
+		</script>		
+		<script src="../public/js/imagezoom.js"></script>
+		<script defer src="../public/js/jquery.flexslider.js"></script>
+		<script>
+		// Can also be used with $(document).ready()
+		$(window).load(function() {
+		  $('.flexslider').flexslider({
+			animation: "slide",
+			controlNav: "thumbnails"
+		  });
+		});
+		</script>
+	<?php endif; ?>
 </body>
 </html>
