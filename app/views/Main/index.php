@@ -3,13 +3,13 @@
 		<div  id="top" class="callbacks_container">
 			<ul class="rslides" id="slider4">
 			    <li>
-					<img src="../public/images/bnr-1.jpg" alt=""/>
+					<img src="images/bnr-1.jpg" alt=""/>
 				</li>
 				<li>
-					<img src="../public/images/bnr-2.jpg" alt=""/>
+					<img src="images/bnr-2.jpg" alt=""/>
 				</li>
 				<li>
-					<img src="../public/images/bnr-3.jpg" alt=""/>
+					<img src="images/bnr-3.jpg" alt=""/>
 				</li>
 			</ul>
 		</div> 
@@ -25,7 +25,7 @@
 				<?php foreach( $brand as $brand ) : ?>
 				<div class="col-md-4 about-left">
 					<figure class="effect-bubba">
-						<img class="img-responsive" src="../public/images/<?= $brand->img; ?>" alt=""/>
+						<img class="img-responsive" src="images/<?= $brand->img; ?>" alt=""/>
 						<figcaption>
 							<h2><?= $brand->title; ?></h2>
 							<p><?= $brand->description; ?></p>	
@@ -57,7 +57,7 @@
 					<?php foreach( $hit as $hit ) : ?>
 					<div class="col-md-3 product-left">
 						<div class="product-main simpleCart_shelfItem">
-							<a href="product/<?php echo $hit->alias; ?>" class="mask"><img class="img-responsive zoom-img" src="../public/images/<?= $hit->img; ?>" alt="" /></a>
+							<a href="product/<?php echo $hit->alias; ?>" class="mask"><img class="img-responsive zoom-img" src="images/<?= $hit->img; ?>" alt="" /></a>
 							<div class="product-bottom">
 								<h3><?= $hit->title; ?></h3>
 								<p><?= $hit->content; ?></p>

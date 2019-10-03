@@ -3,7 +3,7 @@ use fw\core\Router;
 
 // user route
 
-Router::add('^product/?(?<alias>[a-z-0-9-]+)?$', ['controller' => 'Product', 'action' => 'view'] );
+Router::add('^product/?(?<alias>[a-z0-9-]+)?$', ['controller' => 'Product', 'action' => 'view'] );
 
 
 

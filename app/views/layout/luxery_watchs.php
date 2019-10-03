@@ -1,9 +1,3 @@
-<!--A Design by W3layouts  
-Author: W3layout
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <?php
 use app\widgets\currency\Currency;
 ?>
@@ -12,16 +6,17 @@ use app\widgets\currency\Currency;
 <head>
 	<!-- Meta tags -->
 	<?= $this->getMeta(); ?>
-	<base href="/">
-	<link href="../public/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-	<!--theme-style-->
-	<link href="../public/css/style.css" rel="stylesheet" type="text/css" media="all" />	
-	<!--//theme-style-->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="keywords" content="Luxury Watches Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
-	Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
-	<link href="../public/css/memenu.css" rel="stylesheet" type="text/css" media="all" />
-	<link href="../public/css/Mystyles.css" rel="stylesheet" type="text/css"/>
+	<meta name="keywords" content="Luxury Watches Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+
+	<base href="../"/>
+	<base  >
+	
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
+	<link href="css/memenu.css" rel="stylesheet" type="text/css" media="all" />
+	<link href="css/Mystyles.css" rel="stylesheet" type="text/css"/>
+	<link href="css/flexslider.css" rel="stylesheet" type="text/css" media="screen" />
 			
 </head>
 <body> 
@@ -53,7 +48,7 @@ use app\widgets\currency\Currency;
 						<a href="checkout.html">
 							 <div class="total">
 								<span class="simpleCart_total"></span></div>
-								<img src="../public/images/cart-1.png" alt="" />
+								<img src="images/cart-1.png" alt="" />
 						</a>
 						<p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p>
 						<div class="clearfix"> </div>
@@ -66,7 +61,7 @@ use app\widgets\currency\Currency;
 	<!--top-header-->
 	<!--start-logo-->
 	<div class="logo">
-		<a href="<?=PATH?>"><h1>Luxury Watches</h1></a>
+		<a href="#"><h1>Luxury Watches</h1></a>
 	</div>
 	<!--start-logo-->
 	<!--bottom-header-->
@@ -166,13 +161,51 @@ use app\widgets\currency\Currency;
 	<!--footer-end-->	
 
 	<!--Scripts-->
-	<script src="../public/js/jquery-1.11.0.min.js"></script>
-	<script src="../public/js/imagezoom.js"></script>
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<script src="js/simpleCart.min.js"> </script>
+	<script type="text/javascript" src="js/memenu.js"></script>
+	<script>$(document).ready(function(){$(".memenu").memenu();});</script>	
+	<script src="js/jquery.easydropdown.js"></script>	
+	<script type="text/javascript">
+		$(function() {
+		
+		    var menu_ul = $('.menu_drop > li > ul'),
+		           menu_a  = $('.menu_drop > li > a');
+		    
+		    menu_ul.hide();
+		
+		    menu_a.click(function(e) {
+		        e.preventDefault();
+		        if(!$(this).hasClass('active')) {
+		            menu_a.removeClass('active');
+		            menu_ul.filter(':visible').slideUp('normal');
+		            $(this).addClass('active').next().stop(true,true).slideDown('normal');
+		        } else {
+		            $(this).removeClass('active');
+		            $(this).next().stop(true,true).slideUp('normal');
+		        }
+		    });
+		
+		});
+	</script>		
+	<script src="js/imagezoom.js"></script>
+	<script defer src="js/jquery.flexslider.js"></script>
+	<script>
+	// Can also be used with $(document).ready()
+	$(window).load(function() {
+	  $('.flexslider').flexslider({
+		animation: "slide",
+		controlNav: "thumbnails"
+	  });
+	});
+	</script>
+	<!-- SLIDER -->
 	<?php if( !isset($slider) ){
 		$slider = " ";
 	} ?>
 	<?php if( strpos( $slider, 'indexAction' ) ): ?>
-		<script src="../public/js/responsiveslides.min.js"></script>
+		<script src="js/responsiveslides.min.js"></script>
 		<script>
 		// You can also use "$(window).load(function() {"
 		$(function () {
@@ -191,72 +224,6 @@ use app\widgets\currency\Currency;
 			}
 			});
 
-		});
-		</script>
-	<?php endif; ?>
-	<script type="text/javascript" src="../public/js/memenu.js"></script>
-	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-	<script src="../public/js/simpleCart.min.js"> </script>
-	<script>$(document).ready(function(){$(".memenu").memenu();});</script>
-	<script src="../public/js/jquery.easydropdown.js"></script>	
-	<script src="../public/js/main.js"></script>
-
-	<!-- FlexSlider -->
-	
-	<script defer src="../public/js/jquery.flexslider.js"></script>
-	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
-
-	<script>
-	// Can also be used with $(document).ready()
-	$(window).load(function() {
-		$('.flexslider').flexslider({
-		animation: "slide",
-		controlNav: "thumbnails"
-		});
-	});
-	</script>
-
-	<!--product-->
-	<?php if( strpos( $slider, 'viewAction' ) ) :?>
-		<script src="../public/js/jquery-1.11.0.min.js"></script>
-		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-		<!--start-menu-->
-		<script src="../public/js/simpleCart.min.js"> </script>
-		<script type="text/javascript" src="../js/memenu.js"></script>
-		<script>$(document).ready(function(){$(".memenu").memenu();});</script>	
-		<!--dropdown-->
-		<script src="../public/js/jquery.easydropdown.js"></script>	
-		<script type="text/javascript">
-			$(function() {
-			
-			    var menu_ul = $('.menu_drop > li > ul'),
-			           menu_a  = $('.menu_drop > li > a');
-			    
-			    menu_ul.hide();
-			
-			    menu_a.click(function(e) {
-			        e.preventDefault();
-			        if(!$(this).hasClass('active')) {
-			            menu_a.removeClass('active');
-			            menu_ul.filter(':visible').slideUp('normal');
-			            $(this).addClass('active').next().stop(true,true).slideDown('normal');
-			        } else {
-			            $(this).removeClass('active');
-			            $(this).next().stop(true,true).slideUp('normal');
-			        }
-			    });
-			
-			});
-		</script>		
-		<script src="../public/js/imagezoom.js"></script>
-		<script defer src="../public/js/jquery.flexslider.js"></script>
-		<script>
-		// Can also be used with $(document).ready()
-		$(window).load(function() {
-		  $('.flexslider').flexslider({
-			animation: "slide",
-			controlNav: "thumbnails"
-		  });
 		});
 		</script>
 	<?php endif; ?>
