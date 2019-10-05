@@ -9,8 +9,7 @@ use app\widgets\currency\Currency;
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="keywords" content="Luxury Watches Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
 
-	<base href="../"/>
-	<base  >
+	<base href="../public/"/>
 	
 	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
