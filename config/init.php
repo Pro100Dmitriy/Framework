@@ -13,7 +13,7 @@ define( 'CACHE', ROOT . '/tmp/cache' );
 define( 'META', "<title>Luxury Watches</title>\n\t<meta charset=\"utf-8\" />" );
 //define( 'PATH', '/public' );
 
-debug($_SERVER);
+//debug($_SERVER);
 //http://framework/public/index.php
 $app_path = "http://{$_SERVER['HTTP_HOST']}{$_SERVER['PHP_SELF']}";
 //http://framework/public/
