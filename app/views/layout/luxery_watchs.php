@@ -4,12 +4,24 @@ use app\widgets\currency\Currency;
 <!DOCTYPE html>
 <html>
 <head>
+
+	<?php if( !isset($slider) ){
+		$slider = " ";
+	} ?>
+
+	<?php	if( strpos( $slider, 'MainController' ) ) : ?>
+		<base href="../public/"/>
+	<?php else : ?>
+		<base href="../"/>
+	<?php endif; ?>
+
+
 	<!-- Meta tags -->
 	<?= $this->getMeta(); ?>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="keywords" content="Luxury Watches Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
 
-	<base href="../public/"/>
+	
 	
 	<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
 	<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />	
@@ -200,9 +212,6 @@ use app\widgets\currency\Currency;
 	});
 	</script>
 	<!-- SLIDER -->
-	<?php if( !isset($slider) ){
-		$slider = " ";
-	} ?>
 	<?php if( strpos( $slider, 'indexAction' ) ): ?>
 		<script src="js/responsiveslides.min.js"></script>
 		<script>
