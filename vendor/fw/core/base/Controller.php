@@ -9,6 +9,7 @@ abstract class Controller
   protected $layout;
   protected $view; // сюда записывается action
   protected $vars; // сюда записывается контент
+  protected $meta;
 
   public function __construct($route) // сюда из класса Router передаются все вызываемые в данный момент элементы и записываются в свойства объекта
   {
@@ -19,13 +20,18 @@ abstract class Controller
 
   public function getView()
   {
-    $vOBJ = new View($this->route, $this->layout, $this->view); // вызывается метод view и передаются route(экшин и контроллер) layout(разметка) view(метод)
+    $vOBJ = new View($this->route, $this->layout, $this->view, $this->meta); // вызывается метод view и передаются route(экшин и контроллер) layout(разметка) view(метод)
     $vOBJ->render($this->vars); // вызывает составление страницы
   }
   
   public function set($vars)
   {
     $this->vars = $vars; // получает контент и записывает в переменную
+  }
+
+  public function setMeta($meta = [])
+  {
+    $this->meta = $meta;
   }
 
 }

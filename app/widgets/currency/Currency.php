@@ -48,3 +48,4 @@ class Currency
         return ob_get_clean();
     }
 }
+ 

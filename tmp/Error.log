@@ -1,420 +1,162 @@
-14 September 2019 22:18:20 | Номер: 8 | Текс: compact(): Undefined variable: meta | Файл: C:\OSPanel\domains\fw.loc\app\controllers\MainController.php | Линия: 21
+11 October 2019 08:53:05 | Номер: Исключение | Текс: Call to undefined function app\controllers\setMeta() | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 22
 #################
-14 September 2019 22:18:21 | Номер: 8 | Текс: compact(): Undefined variable: meta | Файл: C:\OSPanel\domains\fw.loc\app\controllers\MainController.php | Линия: 21
+11 October 2019 08:53:53 | Номер: Исключение | Текс: Call to undefined function app\controllers\setMeta() | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 22
 #################
-14 September 2019 22:18:28 | Номер: 8 | Текс: compact(): Undefined variable: meta | Файл: C:\OSPanel\domains\fw.loc\app\controllers\MainController.php | Линия: 21
+11 October 2019 08:53:54 | Номер: Исключение | Текс: Call to undefined function app\controllers\setMeta() | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 22
 #################
-14 September 2019 22:18:29 | Номер: 8 | Текс: compact(): Undefined variable: meta | Файл: C:\OSPanel\domains\fw.loc\app\controllers\MainController.php | Линия: 21
+11 October 2019 08:54:07 | Номер: Исключение | Текс: Call to undefined function app\controllers\setMeta() | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 22
 #################
-14 September 2019 22:33:57 | Номер: 8 | Текс: Undefined variable: slider | Файл: C:\OSPanel\domains\fw.loc\app\views\layout\luxery_watchs.php | Линия: 296
+11 October 2019 09:01:28 | Номер: 8 | Текс: Array to string conversion | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 49
 #################
-15 September 2019 14:27:37 | Номер: Исключение | Текс: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 3  -- keep-cache' at line 1 | Файл: C:\OSPanel\domains\fw.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Линия: 194
+11 October 2019 14:47:09 | Номер: 8 | Текс: Undefined variable: prosuct | Файл: C:\OSPanel\domains\Framework\app\views\Product\view.php | Линия: 37
 #################
-15 September 2019 14:28:20 | Номер: Исключение | Текс: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 3  -- keep-cache' at line 1 | Файл: C:\OSPanel\domains\fw.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Линия: 194
+11 October 2019 14:47:19 | Номер: 8 | Текс: Undefined variable: product | Файл: C:\OSPanel\domains\Framework\app\views\Product\view.php | Линия: 37
 #################
-15 September 2019 14:43:40 | Номер: Исключение | Текс: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= 3  -- keep-cache' at line 1 | Файл: C:\OSPanel\domains\fw.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Линия: 194
+11 October 2019 14:53:14 | Номер: 8 | Текс: Undefined variable: hit | Файл: C:\OSPanel\domains\Framework\app\views\Product\view.php | Линия: 65
 #################
-15 September 2019 14:47:24 | Номер: Исключение | Текс: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '8'  -- keep-cache' at line 1 | Файл: C:\OSPanel\domains\fw.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Линия: 194
+11 October 2019 14:54:28 | Номер: 8 | Текс: Undefined variable: hit | Файл: C:\OSPanel\domains\Framework\app\views\Product\view.php | Линия: 66
 #################
-16 September 2019 20:28:18 | Номер: Исключение | Текс: Class 'app\widgets\currency\R' not found | Файл: C:\OSPanel\domains\fw.loc\app\widgets\Currency\Currency.php | Линия: 24
+11 October 2019 14:59:24 | Номер: 2 | Текс: require_once(C:\OSPanel\domains\Framework\app\widgets\currency/currency_tpl2/currency.php): failed to open stream: No such file or directory | Файл: C:\OSPanel\domains\Framework\app\widgets\currency\Currency.php | Линия: 47
 #################
-16 September 2019 20:28:57 | Номер: Исключение | Текс: Class 'app\widgets\currency\R' not found | Файл: C:\OSPanel\domains\fw.loc\app\widgets\Currency\Currency.php | Линия: 24
+11 October 2019 15:43:33 | Номер: 8 | Текс: Undefined variable: cats | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 26
 #################
-16 September 2019 20:28:59 | Номер: Исключение | Текс: Class 'app\widgets\currency\R' not found | Файл: C:\OSPanel\domains\fw.loc\app\widgets\Currency\Currency.php | Линия: 24
+11 October 2019 15:47:45 | Номер: Исключение | Текс: Class 'Cache' not found | Файл: C:\OSPanel\domains\Framework\app\views\Product\view.php | Линия: 99
 #################
-16 September 2019 20:28:59 | Номер: Исключение | Текс: Class 'app\widgets\currency\R' not found | Файл: C:\OSPanel\domains\fw.loc\app\widgets\Currency\Currency.php | Линия: 24
+11 October 2019 15:49:36 | Номер: Исключение | Текс: Class 'app\controllers\App' not found | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 27
 #################
-16 September 2019 20:28:59 | Номер: Исключение | Текс: Class 'app\widgets\currency\R' not found | Файл: C:\OSPanel\domains\fw.loc\app\widgets\Currency\Currency.php | Линия: 24
+11 October 2019 16:30:45 | Номер: Исключение | Текс: Класс app\controllers\CartController не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 62
 #################
-17 September 2019 20:15:54 | Номер: Исключение | Текс: Class 'Currency' not found | Файл: C:\OSPanel\domains\fw.loc\app\views\layout\luxery_watchs.php | Линия: 34
+11 October 2019 16:31:31 | Номер: Исключение | Текс: indexAction не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 57
 #################
-17 September 2019 20:16:57 | Номер: Исключение | Текс: Class 'Currency' not found | Файл: C:\OSPanel\domains\fw.loc\app\views\layout\luxery_watchs.php | Линия: 34
+11 October 2019 16:31:43 | Номер: Исключение | Текс: indexAction не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 57
 #################
-17 September 2019 20:17:27 | Номер: Исключение | Текс: Class 'Currency' not found | Файл: C:\OSPanel\domains\fw.loc\app\views\layout\luxery_watchs.php | Линия: 34
+11 October 2019 16:32:25 | Номер: Исключение | Текс: indexAction не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 57
 #################
-17 September 2019 20:18:51 | Номер: 8 | Текс: Array to string conversion | Файл: C:\OSPanel\domains\fw.loc\app\widgets\currency\currency_tpl\currency.php | Линия: 3
+11 October 2019 16:33:26 | Номер: Исключение | Текс: indexAction не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 57
 #################
-17 September 2019 20:19:53 | Номер: 8 | Текс: Undefined index: code | Файл: C:\OSPanel\domains\fw.loc\app\widgets\currency\currency_tpl\currency.php | Линия: 3
+11 October 2019 16:35:28 | Номер: Исключение | Текс: Call to undefined function fw\core\debgu() | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 45
 #################
-17 September 2019 22:01:35 | Номер: Исключение | Текс: произошла ошибка | Файл: C:\OSPanel\domains\fw.loc\vendor\fw\core\Router.php | Линия: 62
+11 October 2019 16:35:29 | Номер: Исключение | Текс: Call to undefined function fw\core\debgu() | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 45
 #################
-17 September 2019 22:03:45 | Номер: Исключение | Текс: произошла ошибка | Файл: C:\OSPanel\domains\fw.loc\vendor\fw\core\Router.php | Линия: 62
+11 October 2019 16:35:36 | Номер: Исключение | Текс: Using $this when not in object context | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 45
 #################
-17 September 2019 22:03:46 | Номер: Исключение | Текс: произошла ошибка | Файл: C:\OSPanel\domains\fw.loc\vendor\fw\core\Router.php | Линия: 62
+11 October 2019 16:35:37 | Номер: Исключение | Текс: Using $this when not in object context | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 45
 #################
-17 September 2019 22:04:00 | Номер: Исключение | Текс: произошла ошибка | Файл: C:\OSPanel\domains\fw.loc\vendor\fw\core\Router.php | Линия: 62
+11 October 2019 16:35:52 | Номер: Исключение | Текс: Using $this when not in object context | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 45
 #################
-17 September 2019 22:04:50 | Номер: Исключение | Текс: произошла ошибка | Файл: C:\OSPanel\domains\fw.loc\vendor\fw\core\Router.php | Линия: 62
+11 October 2019 16:35:52 | Номер: Исключение | Текс: Using $this when not in object context | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 45
 #################
-17 September 2019 22:05:35 | Номер: Исключение | Текс: Class 'fw\core\base\Exception' not found | Файл: C:\OSPanel\domains\fw.loc\vendor\fw\core\base\View.php | Линия: 30
+11 October 2019 16:35:53 | Номер: Исключение | Текс: Using $this when not in object context | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 45
 #################
-17 September 2019 22:05:36 | Номер: Исключение | Текс: Class 'fw\core\base\Exception' not found | Файл: C:\OSPanel\domains\fw.loc\vendor\fw\core\base\View.php | Линия: 30
+11 October 2019 16:35:53 | Номер: Исключение | Текс: Using $this when not in object context | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 45
 #################
-17 September 2019 22:19:42 | Номер: Исключение | Текс: Class 'app\controllers\R' not found | Файл: C:\OSPanel\domains\fw.loc\app\controllers\CurrencyController.php | Линия: 12
+11 October 2019 16:35:53 | Номер: Исключение | Текс: Using $this when not in object context | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 45
 #################
-17 September 2019 22:20:13 | Номер: Исключение | Текс: Class 'app\controllers\R' not found | Файл: C:\OSPanel\domains\fw.loc\app\controllers\CurrencyController.php | Линия: 12
+11 October 2019 16:36:38 | Номер: Исключение | Текс: indexAction не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 58
 #################
-17 September 2019 22:20:19 | Номер: Исключение | Текс: Class 'app\controllers\R' not found | Файл: C:\OSPanel\domains\fw.loc\app\controllers\CurrencyController.php | Линия: 12
+11 October 2019 16:36:56 | Номер: Исключение | Текс: indexAction не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 58
 #################
-17 September 2019 22:27:39 | Номер: 2 | Текс: Use of undefined constant PATH - assumed 'PATH' (this will throw an Error in a future version of PHP) | Файл: C:\OSPanel\domains\fw.loc\vendor\fw\libs\function.php | Линия: 26
+11 October 2019 16:36:57 | Номер: Исключение | Текс: indexAction не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 58
 #################
-17 September 2019 22:28:35 | Номер: 2 | Текс: Use of undefined constant PATH - assumed 'PATH' (this will throw an Error in a future version of PHP) | Файл: C:\OSPanel\domains\fw.loc\vendor\fw\libs\function.php | Линия: 26
+11 October 2019 16:37:13 | Номер: Исключение | Текс: Класс app\controllers\CheckoutController не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 63
 #################
-17 September 2019 22:28:45 | Номер: 2 | Текс: Use of undefined constant PATH - assumed 'PATH' (this will throw an Error in a future version of PHP) | Файл: C:\OSPanel\domains\fw.loc\vendor\fw\libs\function.php | Линия: 26
+11 October 2019 16:37:23 | Номер: Исключение | Текс: indexAction не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 58
 #################
-17 September 2019 22:30:34 | Номер: Исключение | Текс: Class 'fw\core\base\Exception' not found | Файл: C:\OSPanel\domains\fw.loc\vendor\fw\core\base\View.php | Линия: 30
+11 October 2019 16:37:50 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
 #################
-17 September 2019 22:31:44 | Номер: Исключение | Текс: Class 'fw\core\base\Exception' not found | Файл: C:\OSPanel\domains\fw.loc\vendor\fw\core\base\View.php | Линия: 30
+11 October 2019 16:38:46 | Номер: Исключение | Текс: indexAction не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 58
 #################
-17 September 2019 22:32:17 | Номер: Исключение | Текс: Class 'fw\core\base\Exception' not found | Файл: C:\OSPanel\domains\fw.loc\vendor\fw\core\base\View.php | Линия: 30
+11 October 2019 16:39:13 | Номер: Исключение | Текс: indexAction не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 58
 #################
-23 September 2019 18:46:12 | Номер: Исключение | Текс: Class 'fw\core\Regestry' not found | Файл: C:\OSPanel\domains\fw.loc\vendor\fw\core\App.php | Линия: 11
+11 October 2019 16:39:13 | Номер: Исключение | Текс: indexAction не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 58
 #################
-23 September 2019 18:46:44 | Номер: Исключение | Текс: Class 'fw\core\Regestry' not found | Файл: C:\OSPanel\domains\fw.loc\vendor\fw\core\App.php | Линия: 11
+11 October 2019 16:39:18 | Номер: Исключение | Текс: indexAction не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 58
 #################
-23 September 2019 18:46:45 | Номер: Исключение | Текс: Class 'fw\core\Regestry' not found | Файл: C:\OSPanel\domains\fw.loc\vendor\fw\core\App.php | Линия: 11
+11 October 2019 16:58:34 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
 #################
-23 September 2019 18:46:46 | Номер: Исключение | Текс: Class 'fw\core\Regestry' not found | Файл: C:\OSPanel\domains\fw.loc\vendor\fw\core\App.php | Линия: 11
+11 October 2019 16:59:02 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
 #################
-23 September 2019 18:47:33 | Номер: 8 | Текс: Undefined index: componets | Файл: C:\OSPanel\domains\fw.loc\vendor\fw\core\Registry.php | Линия: 17
+11 October 2019 16:59:47 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
 #################
-23 September 2019 18:48:34 | Номер: 8 | Текс: Undefined index: componets | Файл: C:\OSPanel\domains\fw.loc\vendor\fw\core\Registry.php | Линия: 18
+11 October 2019 17:00:34 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
 #################
-23 September 2019 18:48:35 | Номер: 8 | Текс: Undefined index: componets | Файл: C:\OSPanel\domains\fw.loc\vendor\fw\core\Registry.php | Линия: 18
+11 October 2019 17:04:02 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
 #################
-23 September 2019 18:48:35 | Номер: 8 | Текс: Undefined index: componets | Файл: C:\OSPanel\domains\fw.loc\vendor\fw\core\Registry.php | Линия: 18
+11 October 2019 17:06:31 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
 #################
-23 September 2019 18:48:35 | Номер: 8 | Текс: Undefined index: componets | Файл: C:\OSPanel\domains\fw.loc\vendor\fw\core\Registry.php | Линия: 18
+11 October 2019 17:06:42 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
 #################
-23 September 2019 18:48:57 | Номер: 2 | Текс: Illegal string offset 'property' | Файл: C:\OSPanel\domains\fw.loc\vendor\fw\core\App.php | Линия: 19
+11 October 2019 17:09:04 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
 #################
-23 September 2019 18:51:31 | Номер: 2 | Текс: Illegal string offset 'property' | Файл: C:\OSPanel\domains\fw.loc\vendor\fw\core\App.php | Линия: 20
+11 October 2019 17:11:01 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
 #################
-23 September 2019 18:51:51 | Номер: 2 | Текс: Invalid argument supplied for foreach() | Файл: C:\OSPanel\domains\fw.loc\vendor\fw\core\App.php | Линия: 19
+11 October 2019 17:34:39 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
 #################
-23 September 2019 18:52:40 | Номер: 2 | Текс: Invalid argument supplied for foreach() | Файл: C:\OSPanel\domains\fw.loc\vendor\fw\core\App.php | Линия: 20
+11 October 2019 17:35:45 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
 #################
-23 September 2019 19:12:36 | Номер: 8 | Текс: Undefined variable: url | Файл: C:\OSPanel\domains\fw.loc\public\index.php | Линия: 20
+11 October 2019 17:36:23 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
 #################
-23 September 2019 19:12:37 | Номер: 8 | Текс: Undefined variable: url | Файл: C:\OSPanel\domains\fw.loc\public\index.php | Линия: 20
+11 October 2019 17:36:33 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
 #################
-23 September 2019 19:12:49 | Номер: 8 | Текс: Undefined variable: url | Файл: C:\OSPanel\domains\fw.loc\public\index.php | Линия: 20
+11 October 2019 17:37:56 | Номер: Исключение | Текс: viewAction не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 57
 #################
-23 September 2019 19:12:50 | Номер: 8 | Текс: Undefined variable: url | Файл: C:\OSPanel\domains\fw.loc\public\index.php | Линия: 20
+11 October 2019 17:37:59 | Номер: Исключение | Текс: viewAction не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 57
 #################
-23 September 2019 19:13:57 | Номер: Исключение | Текс: Class 'Routers' not found | Файл: C:\OSPanel\domains\fw.loc\public\index.php | Линия: 17
+11 October 2019 17:38:09 | Номер: Исключение | Текс: viewAction не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 57
 #################
-23 September 2019 19:13:58 | Номер: Исключение | Текс: Class 'Routers' not found | Файл: C:\OSPanel\domains\fw.loc\public\index.php | Линия: 17
+11 October 2019 17:38:21 | Номер: Исключение | Текс: viewAction не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 57
 #################
-23 September 2019 19:21:39 | Номер: 8 | Текс: Undefined variable: RouterAdd | Файл: C:\OSPanel\domains\fw.loc\vendor\fw\core\App.php | Линия: 18
+11 October 2019 17:39:29 | Номер: Исключение | Текс: indexAction не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 57
 #################
-23 September 2019 19:21:40 | Номер: 8 | Текс: Undefined variable: RouterAdd | Файл: C:\OSPanel\domains\fw.loc\vendor\fw\core\App.php | Линия: 18
+11 October 2019 17:39:38 | Номер: Исключение | Текс: viewAction не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 57
 #################
-23 September 2019 19:22:10 | Номер: 2 | Текс: Illegal offset type | Файл: C:\OSPanel\domains\fw.loc\vendor\fw\core\Router.php | Линия: 13
+11 October 2019 17:39:57 | Номер: Исключение | Текс: viewAction не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 57
 #################
-23 September 2019 19:22:12 | Номер: 2 | Текс: Illegal offset type | Файл: C:\OSPanel\domains\fw.loc\vendor\fw\core\Router.php | Линия: 13
+11 October 2019 17:40:08 | Номер: Исключение | Текс: viewAction не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 57
 #################
-23 September 2019 19:22:37 | Номер: 2 | Текс: Illegal offset type | Файл: C:\OSPanel\domains\fw.loc\vendor\fw\core\Router.php | Линия: 13
+11 October 2019 17:40:12 | Номер: Исключение | Текс: indexAction не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 57
 #################
-23 September 2019 20:00:24 | Номер: Исключение | Текс: syntax error, unexpected '}' | Файл: C:\OSPanel\domains\fw.loc\app\controllers\AppController.php | Линия: 23
+11 October 2019 17:40:48 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
 #################
-23 September 2019 20:00:26 | Номер: Исключение | Текс: syntax error, unexpected '}' | Файл: C:\OSPanel\domains\fw.loc\app\controllers\AppController.php | Линия: 23
+11 October 2019 17:40:49 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
 #################
-23 September 2019 20:00:52 | Номер: Исключение | Текс: Class 'app\controllers\App' not found | Файл: C:\OSPanel\domains\fw.loc\app\controllers\AppController.php | Линия: 18
+11 October 2019 17:40:51 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
 #################
-23 September 2019 20:00:53 | Номер: Исключение | Текс: Class 'app\controllers\App' not found | Файл: C:\OSPanel\domains\fw.loc\app\controllers\AppController.php | Линия: 18
+11 October 2019 17:40:51 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
 #################
-23 September 2019 20:01:39 | Номер: Исключение | Текс: Class 'Router' not found | Файл: C:\OSPanel\domains\fw.loc\public\index.php | Линия: 12
+11 October 2019 17:41:45 | Номер: Исключение | Текс: viewAction не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 57
 #################
-23 September 2019 20:01:39 | Номер: Исключение | Текс: Class 'Router' not found | Файл: C:\OSPanel\domains\fw.loc\public\index.php | Линия: 12
+11 October 2019 17:42:33 | Номер: Исключение | Текс: viewAction не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 57
 #################
-23 September 2019 20:01:40 | Номер: Исключение | Текс: Class 'Router' not found | Файл: C:\OSPanel\domains\fw.loc\public\index.php | Линия: 12
+11 October 2019 17:43:08 | Номер: Исключение | Текс: viewAction не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 57
 #################
-23 September 2019 20:03:05 | Номер: Исключение | Текс: Class 'Router' not found | Файл: C:\OSPanel\domains\fw.loc\public\index.php | Линия: 13
+11 October 2019 17:43:42 | Номер: Исключение | Текс: viewAction не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 57
 #################
-23 September 2019 20:03:06 | Номер: Исключение | Текс: Class 'Router' not found | Файл: C:\OSPanel\domains\fw.loc\public\index.php | Линия: 13
+11 October 2019 17:44:02 | Номер: Исключение | Текс: viewAction не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 57
 #################
-23 September 2019 20:03:06 | Номер: Исключение | Текс: Class 'Router' not found | Файл: C:\OSPanel\domains\fw.loc\public\index.php | Линия: 13
+11 October 2019 17:45:54 | Номер: Исключение | Текс: addAction не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 57
 #################
-23 September 2019 20:03:06 | Номер: Исключение | Текс: Class 'Router' not found | Файл: C:\OSPanel\domains\fw.loc\public\index.php | Линия: 13
+11 October 2019 17:46:54 | Номер: 2 | Текс: Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) | Файл: C:\OSPanel\domains\Framework\app\views\layout\luxery_watchs.php | Линия: 12
 #################
-23 September 2019 20:03:19 | Номер: Исключение | Текс: Class 'Router' not found | Файл: C:\OSPanel\domains\fw.loc\public\index.php | Линия: 13
+11 October 2019 17:47:01 | Номер: 2 | Текс: Use of undefined constant php - assumed 'php' (this will throw an Error in a future version of PHP) | Файл: C:\OSPanel\domains\Framework\app\views\layout\luxery_watchs.php | Линия: 12
 #################
-23 September 2019 20:03:20 | Номер: Исключение | Текс: Class 'Router' not found | Файл: C:\OSPanel\domains\fw.loc\public\index.php | Линия: 13
+11 October 2019 17:49:44 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
 #################
-23 September 2019 20:03:20 | Номер: Исключение | Текс: Class 'Router' not found | Файл: C:\OSPanel\domains\fw.loc\public\index.php | Линия: 13
+11 October 2019 17:49:48 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
 #################
-23 September 2019 20:03:21 | Номер: Исключение | Текс: Class 'Router' not found | Файл: C:\OSPanel\domains\fw.loc\public\index.php | Линия: 13
+11 October 2019 17:50:10 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
 #################
-23 September 2019 20:03:59 | Номер: Исключение | Текс: Class 'app\controllers\App' not found | Файл: C:\OSPanel\domains\fw.loc\app\controllers\AppController.php | Линия: 18
+11 October 2019 17:50:12 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
 #################
-23 September 2019 20:04:00 | Номер: Исключение | Текс: Class 'app\controllers\App' not found | Файл: C:\OSPanel\domains\fw.loc\app\controllers\AppController.php | Линия: 18
+11 October 2019 17:51:07 | Номер: Исключение | Текс: Using $this when not in object context | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 36
 #################
-23 September 2019 20:04:20 | Номер: Исключение | Текс: Class 'app\controllers\App' not found | Файл: C:\OSPanel\domains\fw.loc\app\controllers\AppController.php | Линия: 18
+11 October 2019 17:51:08 | Номер: Исключение | Текс: Using $this when not in object context | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 36
 #################
-23 September 2019 20:04:21 | Номер: Исключение | Текс: Class 'app\controllers\App' not found | Файл: C:\OSPanel\domains\fw.loc\app\controllers\AppController.php | Линия: 18
+11 October 2019 17:51:32 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
 #################
-23 September 2019 20:04:21 | Номер: Исключение | Текс: Class 'app\controllers\App' not found | Файл: C:\OSPanel\domains\fw.loc\app\controllers\AppController.php | Линия: 18
+11 October 2019 17:52:03 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
 #################
-23 September 2019 20:04:55 | Номер: 8 | Текс: Undefined variable: app | Файл: C:\OSPanel\domains\fw.loc\app\controllers\AppController.php | Линия: 18
+11 October 2019 17:52:04 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
 #################
-23 September 2019 20:04:56 | Номер: 8 | Текс: Undefined variable: app | Файл: C:\OSPanel\domains\fw.loc\app\controllers\AppController.php | Линия: 18
-#################
-23 September 2019 20:04:56 | Номер: 8 | Текс: Undefined variable: app | Файл: C:\OSPanel\domains\fw.loc\app\controllers\AppController.php | Линия: 18
-#################
-23 September 2019 20:04:56 | Номер: 8 | Текс: Undefined variable: app | Файл: C:\OSPanel\domains\fw.loc\app\controllers\AppController.php | Линия: 18
-#################
-23 September 2019 20:05:17 | Номер: Исключение | Текс: Access to undeclared static property: app\controllers\AppController::$app | Файл: C:\OSPanel\domains\fw.loc\app\controllers\AppController.php | Линия: 18
-#################
-23 September 2019 20:05:18 | Номер: Исключение | Текс: Access to undeclared static property: app\controllers\AppController::$app | Файл: C:\OSPanel\domains\fw.loc\app\controllers\AppController.php | Линия: 18
-#################
-23 September 2019 20:05:19 | Номер: Исключение | Текс: Access to undeclared static property: app\controllers\AppController::$app | Файл: C:\OSPanel\domains\fw.loc\app\controllers\AppController.php | Линия: 18
-#################
-23 September 2019 20:05:19 | Номер: Исключение | Текс: Access to undeclared static property: app\controllers\AppController::$app | Файл: C:\OSPanel\domains\fw.loc\app\controllers\AppController.php | Линия: 18
-#################
-23 September 2019 20:06:09 | Номер: Исключение | Текс: Class 'Router' not found | Файл: C:\OSPanel\domains\fw.loc\public\index.php | Линия: 12
-#################
-23 September 2019 20:06:09 | Номер: Исключение | Текс: Class 'Router' not found | Файл: C:\OSPanel\domains\fw.loc\public\index.php | Линия: 12
-#################
-23 September 2019 20:07:24 | Номер: Исключение | Текс: Class 'app\controllers\App' not found | Файл: C:\OSPanel\domains\fw.loc\app\controllers\AppController.php | Линия: 18
-#################
-23 September 2019 20:09:09 | Номер: Исключение | Текс: Class 'App' not found | Файл: C:\OSPanel\domains\fw.loc\public\index.php | Линия: 14
-#################
-23 September 2019 20:09:09 | Номер: Исключение | Текс: Class 'App' not found | Файл: C:\OSPanel\domains\fw.loc\public\index.php | Линия: 14
-#################
-23 September 2019 20:09:09 | Номер: Исключение | Текс: Class 'App' not found | Файл: C:\OSPanel\domains\fw.loc\public\index.php | Линия: 14
-#################
-23 September 2019 20:09:10 | Номер: Исключение | Текс: Class 'App' not found | Файл: C:\OSPanel\domains\fw.loc\public\index.php | Линия: 14
-#################
-23 September 2019 20:11:24 | Номер: Исключение | Текс: Class 'App' not found | Файл: C:\OSPanel\domains\fw.loc\public\index.php | Линия: 14
-#################
-23 September 2019 20:11:25 | Номер: Исключение | Текс: Class 'App' not found | Файл: C:\OSPanel\domains\fw.loc\public\index.php | Линия: 14
-#################
-23 September 2019 20:11:44 | Номер: Исключение | Текс: Class 'App' not found | Файл: C:\OSPanel\domains\fw.loc\public\index.php | Линия: 14
-#################
-23 September 2019 20:11:45 | Номер: Исключение | Текс: Class 'App' not found | Файл: C:\OSPanel\domains\fw.loc\public\index.php | Линия: 14
-#################
-23 September 2019 20:11:45 | Номер: Исключение | Текс: Class 'App' not found | Файл: C:\OSPanel\domains\fw.loc\public\index.php | Линия: 14
-#################
-23 September 2019 20:12:02 | Номер: Исключение | Текс: Class 'app\controllers\App' not found | Файл: C:\OSPanel\domains\fw.loc\app\controllers\AppController.php | Линия: 18
-#################
-23 September 2019 20:12:02 | Номер: Исключение | Текс: Class 'app\controllers\App' not found | Файл: C:\OSPanel\domains\fw.loc\app\controllers\AppController.php | Линия: 18
-#################
-23 September 2019 20:12:03 | Номер: Исключение | Текс: Class 'app\controllers\App' not found | Файл: C:\OSPanel\domains\fw.loc\app\controllers\AppController.php | Линия: 18
-#################
-23 September 2019 20:12:18 | Номер: Исключение | Текс: Class 'app\controllers\App' not found | Файл: C:\OSPanel\domains\fw.loc\app\controllers\AppController.php | Линия: 18
-#################
-23 September 2019 20:12:19 | Номер: Исключение | Текс: Class 'app\controllers\App' not found | Файл: C:\OSPanel\domains\fw.loc\app\controllers\AppController.php | Линия: 18
-#################
-23 September 2019 20:18:24 | Номер: Исключение | Текс: Class 'app\widgets\currency\App' not found | Файл: C:\OSPanel\domains\fw.loc\app\widgets\currency\Currency.php | Линия: 21
-#################
-23 September 2019 20:18:24 | Номер: Исключение | Текс: Class 'app\widgets\currency\App' not found | Файл: C:\OSPanel\domains\fw.loc\app\widgets\currency\Currency.php | Линия: 21
-#################
-23 September 2019 20:19:19 | Номер: Исключение | Текс: Class 'app\widgets\currency\App' not found | Файл: C:\OSPanel\domains\fw.loc\app\widgets\currency\Currency.php | Линия: 21
-#################
-23 September 2019 20:20:39 | Номер: 4096 | Текс: Object of class app\widgets\currency\Currency could not be converted to string | Файл: C:\OSPanel\domains\fw.loc\app\views\layout\luxery_watchs.php | Линия: 34
-#################
-23 September 2019 20:21:24 | Номер: 4096 | Текс: Object of class app\widgets\currency\Currency could not be converted to string | Файл: C:\OSPanel\domains\fw.loc\app\views\layout\luxery_watchs.php | Линия: 34
-#################
-23 September 2019 20:21:40 | Номер: 4096 | Текс: Object of class app\widgets\currency\Currency could not be converted to string | Файл: C:\OSPanel\domains\fw.loc\app\views\layout\luxery_watchs.php | Линия: 34
-#################
-23 September 2019 20:26:38 | Номер: Исключение | Текс: Class 'App' not found | Файл: C:\OSPanel\domains\fw.loc\app\views\Main\index.php | Линия: 55
-#################
-23 September 2019 20:28:56 | Номер: Исключение | Текс: Class 'App' not found | Файл: C:\OSPanel\domains\fw.loc\app\views\Main\index.php | Линия: 55
-#################
-23 September 2019 20:29:12 | Номер: Исключение | Текс: Call to undefined function int() | Файл: C:\OSPanel\domains\fw.loc\app\views\Main\index.php | Линия: 55
-#################
-23 September 2019 20:29:14 | Номер: Исключение | Текс: Call to undefined function int() | Файл: C:\OSPanel\domains\fw.loc\app\views\Main\index.php | Линия: 55
-#################
-23 September 2019 20:29:51 | Номер: Исключение | Текс: Call to undefined function int() | Файл: C:\OSPanel\domains\fw.loc\app\views\Main\index.php | Линия: 55
-#################
-23 September 2019 20:31:27 | Номер: Исключение | Текс: Class 'App' not found | Файл: C:\OSPanel\domains\fw.loc\app\views\Main\index.php | Линия: 44
-#################
-23 September 2019 20:40:35 | Номер: 8 | Текс: Undefined variable: symbol_right | Файл: C:\OSPanel\domains\fw.loc\app\views\Main\index.php | Линия: 64
-#################
-23 September 2019 20:41:22 | Номер: 8 | Текс: Undefined variable: symbol_right | Файл: C:\OSPanel\domains\fw.loc\app\views\Main\index.php | Линия: 64
-#################
-23 September 2019 20:41:53 | Номер: 8 | Текс: Undefined variable: symbol_right | Файл: C:\OSPanel\domains\fw.loc\app\views\Main\index.php | Линия: 64
-#################
-23 September 2019 20:42:01 | Номер: 8 | Текс: Undefined variable: symbol_right | Файл: C:\OSPanel\domains\fw.loc\app\views\Main\index.php | Линия: 64
-#################
-23 September 2019 20:42:59 | Номер: Исключение | Текс: syntax error, unexpected ')' | Файл: C:\OSPanel\domains\fw.loc\app\views\Main\index.php | Линия: 66
-#################
-23 September 2019 20:43:31 | Номер: Исключение | Текс: syntax error, unexpected ')' | Файл: C:\OSPanel\domains\fw.loc\app\views\Main\index.php | Линия: 66
-#################
-24 September 2019 18:28:01 | Номер: 8 | Текс: unserialize(): Error at offset 0 of 72 bytes | Файл: C:\OSPanel\domains\fw.loc\vendor\fw\core\Cache.php | Линия: 23
-#################
-24 September 2019 18:28:37 | Номер: 8 | Текс: unserialize(): Error at offset 0 of 72 bytes | Файл: C:\OSPanel\domains\fw.loc\vendor\fw\core\Cache.php | Линия: 23
-#################
-24 September 2019 18:29:57 | Номер: 8 | Текс: Undefined variable: content | Файл: C:\OSPanel\domains\fw.loc\vendor\fw\core\Cache.php | Линия: 25
-#################
-24 September 2019 18:34:57 | Номер: 8 | Текс: unserialize(): Error at offset 0 of 72 bytes | Файл: C:\OSPanel\domains\fw.loc\vendor\fw\core\Cache.php | Линия: 24
-#################
-24 September 2019 18:34:58 | Номер: 8 | Текс: unserialize(): Error at offset 0 of 72 bytes | Файл: C:\OSPanel\domains\fw.loc\vendor\fw\core\Cache.php | Линия: 24
-#################
-24 September 2019 18:35:29 | Номер: 8 | Текс: Array to string conversion | Файл: C:\OSPanel\domains\fw.loc\app\controllers\AppController.php | Линия: 22
-#################
-24 September 2019 18:35:30 | Номер: 8 | Текс: Array to string conversion | Файл: C:\OSPanel\domains\fw.loc\app\controllers\AppController.php | Линия: 22
-#################
-24 September 2019 18:35:30 | Номер: 8 | Текс: Array to string conversion | Файл: C:\OSPanel\domains\fw.loc\app\controllers\AppController.php | Линия: 22
-#################
-24 September 2019 18:35:44 | Номер: 8 | Текс: Array to string conversion | Файл: C:\OSPanel\domains\fw.loc\app\controllers\AppController.php | Линия: 22
-#################
-24 September 2019 18:36:04 | Номер: 8 | Текс: Array to string conversion | Файл: C:\OSPanel\domains\fw.loc\app\controllers\AppController.php | Линия: 22
-#################
-24 September 2019 18:36:05 | Номер: 8 | Текс: Array to string conversion | Файл: C:\OSPanel\domains\fw.loc\app\controllers\AppController.php | Линия: 22
-#################
-24 September 2019 18:36:05 | Номер: 8 | Текс: Array to string conversion | Файл: C:\OSPanel\domains\fw.loc\app\controllers\AppController.php | Линия: 22
-#################
-24 September 2019 18:36:05 | Номер: 8 | Текс: Array to string conversion | Файл: C:\OSPanel\domains\fw.loc\app\controllers\AppController.php | Линия: 22
-#################
-24 September 2019 18:36:05 | Номер: 8 | Текс: Array to string conversion | Файл: C:\OSPanel\domains\fw.loc\app\controllers\AppController.php | Линия: 22
-#################
-24 September 2019 20:53:30 | Номер: 8 | Текс: Undefined variable: cats | Файл: C:\OSPanel\domains\fw.loc\app\controllers\AppController.php | Линия: 34
-#################
-26 September 2019 18:41:33 | Номер: 8 | Текс: Undefined variable: class_child | Файл: C:\OSPanel\domains\fw.loc\public\menu\menu.php | Линия: 5
-#################
-26 September 2019 18:45:36 | Номер: Исключение | Текс: произошла ошибка | Файл: C:\OSPanel\domains\fw.loc\vendor\fw\core\Router.php | Линия: 62
-#################
-26 September 2019 18:48:31 | Номер: Исключение | Текс: произошла ошибка | Файл: C:\OSPanel\domains\fw.loc\vendor\fw\core\Router.php | Линия: 62
-#################
-26 September 2019 18:55:19 | Номер: Исключение | Текс: произошла ошибка | Файл: C:\OSPanel\domains\fw.loc\vendor\fw\core\Router.php | Линия: 62
-#################
-26 September 2019 18:57:39 | Номер: Исключение | Текс: произошла ошибка | Файл: C:\OSPanel\domains\fw.loc\vendor\fw\core\Router.php | Линия: 62
-#################
-02 October 2019 17:39:13 | Номер: Исключение | Текс: syntax error, unexpected '?>' | Файл: C:\OSPanel\domains\Framework\app\views\Main\index.php | Линия: 61
-#################
-02 October 2019 17:50:08 | Номер: Исключение | Текс: произошла ошибка | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 62
-#################
-02 October 2019 17:50:45 | Номер: Исключение | Текс: произошла ошибка | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 62
-#################
-02 October 2019 17:50:45 | Номер: Исключение | Текс: произошла ошибка | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 62
-#################
-02 October 2019 17:50:51 | Номер: Исключение | Текс: произошла ошибка | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 62
-#################
-02 October 2019 17:52:12 | Номер: Исключение | Текс: Класс app\controllers\ProductControllerне найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 62
-#################
-02 October 2019 17:52:13 | Номер: Исключение | Текс: Класс app\controllers\ProductControllerне найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 62
-#################
-02 October 2019 17:52:40 | Номер: Исключение | Текс: Класс app\controllers\ProductController не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 62
-#################
-02 October 2019 17:53:47 | Номер: Исключение | Текс: Класс app\controllers\ProductController не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 62
-#################
-02 October 2019 17:53:49 | Номер: Исключение | Текс: Класс app\controllers\ProductController не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 62
-#################
-02 October 2019 17:53:52 | Номер: Исключение | Текс: Класс app\controllers\ProductController не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 62
-#################
-02 October 2019 17:54:10 | Номер: Исключение | Текс: произошла ошибка | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 57
-#################
-02 October 2019 17:54:12 | Номер: Исключение | Текс: произошла ошибка | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 57
-#################
-02 October 2019 17:54:12 | Номер: Исключение | Текс: произошла ошибка | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 57
-#################
-02 October 2019 17:55:04 | Номер: Исключение | Текс: viewAction не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 57
-#################
-02 October 2019 17:55:40 | Номер: Исключение | Текс: Class 'fw\core\base\Exception' not found | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 30
-#################
-02 October 2019 17:57:12 | Номер: Исключение | Текс: Class 'fw\core\base\Exception' not found | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 30
-#################
-02 October 2019 17:58:30 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 30
-#################
-02 October 2019 18:00:12 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
-#################
-02 October 2019 18:00:14 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
-#################
-02 October 2019 18:00:14 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
-#################
-02 October 2019 18:00:33 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 32
-#################
-02 October 2019 18:00:35 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 32
-#################
-02 October 2019 18:00:54 | Номер: 8 | Текс: Undefined variable: slider | Файл: C:\OSPanel\domains\Framework\app\views\layout\luxery_watchs.php | Линия: 307
-#################
-02 October 2019 18:02:55 | Номер: 8 | Текс: Undefined variable: slider | Файл: C:\OSPanel\domains\Framework\app\views\layout\luxery_watchs.php | Линия: 307
-#################
-02 October 2019 18:04:20 | Номер: 8 | Текс: Undefined variable: slider | Файл: C:\OSPanel\domains\Framework\app\views\layout\luxery_watchs.php | Линия: 307
-#################
-02 October 2019 18:04:37 | Номер: 8 | Текс: Undefined variable: slider | Файл: C:\OSPanel\domains\Framework\app\views\layout\luxery_watchs.php | Линия: 307
-#################
-02 October 2019 18:04:48 | Номер: 8 | Текс: Undefined variable: slider | Файл: C:\OSPanel\domains\Framework\app\views\layout\luxery_watchs.php | Линия: 307
-#################
-02 October 2019 18:05:16 | Номер: 8 | Текс: Undefined variable: slider | Файл: C:\OSPanel\domains\Framework\app\views\layout\luxery_watchs.php | Линия: 307
-#################
-02 October 2019 18:05:17 | Номер: 8 | Текс: Undefined variable: slider | Файл: C:\OSPanel\domains\Framework\app\views\layout\luxery_watchs.php | Линия: 307
-#################
-02 October 2019 18:07:51 | Номер: 8 | Текс: Undefined variable: slider | Файл: C:\OSPanel\domains\Framework\app\views\layout\luxery_watchs.php | Линия: 307
-#################
-02 October 2019 18:07:56 | Номер: 8 | Текс: Undefined variable: slider | Файл: C:\OSPanel\domains\Framework\app\views\layout\luxery_watchs.php | Линия: 307
-#################
-02 October 2019 18:09:16 | Номер: Исключение | Текс: syntax error, unexpected ';', expecting '(' | Файл: C:\OSPanel\domains\Framework\app\views\layout\luxery_watchs.php | Линия: 332
-#################
-03 October 2019 17:54:49 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 14
-#################
-03 October 2019 17:55:27 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 14
-#################
-03 October 2019 17:55:28 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 14
-#################
-03 October 2019 17:55:28 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 14
-#################
-03 October 2019 17:55:57 | Номер: Исключение | Текс: Class 'app\controllers\R' not found | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 12
-#################
-03 October 2019 17:55:58 | Номер: Исключение | Текс: Class 'app\controllers\R' not found | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 12
-#################
-03 October 2019 17:55:58 | Номер: Исключение | Текс: Class 'app\controllers\R' not found | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 12
-#################
-03 October 2019 17:57:54 | Номер: Исключение | Текс: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound | Файл: C:\OSPanel\domains\Framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Линия: 194
-#################
-03 October 2019 17:58:21 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 15
-#################
-03 October 2019 17:58:22 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 15
-#################
-03 October 2019 17:58:22 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 15
-#################
-03 October 2019 17:58:22 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 15
-#################
-03 October 2019 17:59:13 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 16
-#################
-03 October 2019 17:59:14 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 16
-#################
-03 October 2019 17:59:14 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 16
-#################
-03 October 2019 17:59:26 | Номер: Исключение | Текс: Expected array, string given. | Файл: C:\OSPanel\domains\Framework\vendor\gabordemooij\redbean\RedBeanPHP\Finder.php | Линия: 146
-#################
-03 October 2019 17:59:40 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 16
-#################
-03 October 2019 17:59:41 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 16
-#################
-03 October 2019 17:59:47 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 16
-#################
-03 October 2019 17:59:47 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 16
-#################
-03 October 2019 17:59:47 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 16
-#################
-03 October 2019 17:59:56 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 16
-#################
-03 October 2019 17:59:57 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 16
-#################
-03 October 2019 18:00:36 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 16
-#################
-03 October 2019 18:00:37 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 16
-#################
-03 October 2019 18:00:37 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 16
-#################
-03 October 2019 18:00:54 | Номер: Исключение | Текс: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Watches1 AND status = '1'  -- keep-cache' at line 1 | Файл: C:\OSPanel\domains\Framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Линия: 194
-#################
-03 October 2019 18:00:55 | Номер: Исключение | Текс: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Watches1 AND status = '1'  -- keep-cache' at line 1 | Файл: C:\OSPanel\domains\Framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Линия: 194
-#################
-03 October 2019 18:02:58 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 14
-#################
-03 October 2019 18:07:17 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 14
-#################
-03 October 2019 18:07:18 | Номер: Исключение | Текс: Страница не найдена | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 14
-#################
-03 October 2019 18:29:10 | Номер: Исключение | Текс: syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) | Файл: C:\OSPanel\domains\Framework\app\views\layout\luxery_watchs.php | Линия: 365
-#################
-03 October 2019 18:35:30 | Номер: Исключение | Текс: Call to undefined function app\controllers\set() | Файл: C:\OSPanel\domains\Framework\app\controllers\ProductController.php | Линия: 13
-#################
-03 October 2019 22:18:48 | Номер: Исключение | Текс: Call to undefined function fw\core\removePublic() | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 45
-#################
-03 October 2019 22:18:49 | Номер: Исключение | Текс: Call to undefined function fw\core\removePublic() | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 45
+11 October 2019 17:52:05 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
 #################

@@ -6,7 +6,7 @@ use fw\core\base\Controller;
 use app\models\AppModel;
 use app\widgets\currency\Currency;
 use fw\core\App;
-use fw\core\Cache;
+use fw\core\Cache; 
 use \RedBeanPHP\R as R;
 
 class AppController extends Controller
@@ -18,10 +18,10 @@ class AppController extends Controller
         new AppModel();
         App::$app->setProperty( 'currencies', Currency::getCurrencies() );
         App::$app->setProperty( 'currency', Currency::getCurrency( App::$app->getProperty('currencies') ) );
-        //debug(App::$app->getProperties());
-        //debug( App::$app->getProperty('currency')['value'] );
+
         App::$app->setProperty( 'cats', self::cacheCategory() );
-        //debug(App::$app->getProperties());
+
+        App::$app->setProperty( 'brands', self::cacheBrands() );
     }    
 
     public static function cacheCategory()
@@ -32,6 +32,16 @@ class AppController extends Controller
             Cache::set('cats', $cats);
         }
         return $cats;
+    }
+
+    public static function cacheBrands()
+    {
+        $brand = Cache::get('brand');
+        if( !$brand ){
+            $brand = R::getAssoc("SELECT * FROM brand");
+            Cache::set('brands', $brand);
+        }
+        return $brand;
     }
 
 }

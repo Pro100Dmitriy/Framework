@@ -60,11 +60,11 @@
 							<a href="product/<?php echo $hit->alias; ?>" class="mask"><img class="img-responsive zoom-img" src="images/<?= $hit->img; ?>" alt="" /></a>
 							<div class="product-bottom">
 								<h3><?= $hit->title; ?></h3>
-								<p><?= $hit->content; ?></p>
+								<p>Explore now</p>
 								<?php if( !empty( $symbol_right ) ) : ?>
-									<h4><a class="item_add" href="#"><i></i></a> <span class=" item_price"><?php echo $hit->price * $value . ' ' . $symbol_right; ?></span></h4>
+									<h4><a id="product_add" data-id="<?=$hit->id?>" class="item_add add-to-cart-link" href="#"><i></i></a> <span class=" item_price"><?php echo $hit->price * $value . ' ' . $symbol_right; ?></span></h4>
 								<?php else : ?>
-									<h4><a class="item_add" href="#"><i></i></a> <span class=" item_price"><?php echo $symbol_left . ' ' . $hit->price * $value; ?></span></h4>
+									<h4><a id="product_add" data-id="<?=$hit->id?>" class="item_add add-to-cart-link" href="#"><i></i></a> <span class=" item_price"><?php echo $symbol_left . ' ' . $hit->price * $value; ?></span></h4>
 								<?php endif; ?>
 							</div>
 							<div class="srch">

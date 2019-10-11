@@ -4,6 +4,7 @@ use fw\core\Router;
 // user route
 
 Router::add('^product/(?P<alias>[a-z0-9-]+)/?$', ['controller' => 'Product', 'action' => 'view']);
+//Router::add('^cart', ['controller' => 'Cart', 'action' => 'view']);
 
 
 

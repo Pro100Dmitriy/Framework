@@ -1622,6 +1622,10 @@ ul.star-footer li i {
     margin: 0;
     padding: 17px 0 6px 0;
 }
+small .item_old_price{
+    font-size: 0.8em !important;
+    text-decoration: line-through !important;;
+}
 .single-para p {
     font-size: 15px;
     color: #000;

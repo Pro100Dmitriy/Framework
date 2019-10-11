@@ -34,7 +34,7 @@
 					</div>	
 					<div class="col-md-7 single-top-right">
 						<div class="single-para simpleCart_shelfItem">
-						<h2>Lorem Ipsum</h2>
+						<h2><?=$product->title; ?></h2>
 							<div class="star-on">
 								<ul class="star-footer">
 										<li><a href="#"><i> </i></a></li>
@@ -49,9 +49,33 @@
 								</div>
 							<div class="clearfix"> </div>
 							</div>
+
+							<?php
+							$value = fw\core\App::$app->getProperty('currency')['value'];
+
+							if( !empty(fw\core\App::$app->getProperty('currency')['symbol_right'] ) ){
+								$symbol_right = fw\core\App::$app->getProperty('currency')['symbol_right'];
+							}else{
+								$symbol_left = fw\core\App::$app->getProperty('currency')['symbol_left'];
+							}
+							?>
+							<?php if( !empty( $symbol_right ) ) : ?>
+								<h5><span class=" item_price"><?php echo $product->price * $value . ' ' . $symbol_right; ?></span></h5>
+							<?php else : ?>
+								<h5><span class=" item_price"><?php echo $symbol_left . ' ' . $product->price * $value; ?></span></h5>
+							<?php endif; ?>
+
+							<?php if( $product->old_price ) : ?>
+
+								<?php if( !empty( $symbol_right ) ) : ?>
+									<small> <span class=" item_old_price"><?php echo $product->old_price * $value . ' ' . $symbol_right; ?></span></small>
+								<?php else : ?>
+									<small> <span class=" item_old_price"><?php echo $symbol_left . ' ' . $product->old_price * $value; ?></span></small>
+								<?php endif; ?>
+
+							<?php endif; ?>
 							
-							<h5 class="item_price">$ 95.00</h5>
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+							<p><?=$product->content?></p>
 							<div class="available">
 								<ul>
 									<li>Color
@@ -72,12 +96,14 @@
 							</ul>
 						</div>
 							<ul class="tag-men">
-								<li><span>TAG</span>
-								<span class="women1">: Women,</span></li>
-								<li><span>SKU</span>
-								<span class="women1">: CK09</span></li>
+								<?php $cats = fw\core\App::$app->getProperty('cats'); ?>
+								<?php $brands = fw\core\App::$app->getProperty('brands'); ?>
+								<li><span>CATEGOTY</span>
+								<span class="women1">: <?=$cats[$product->category_id]['title']?>,</span></li>
+								<li><span>BRAND</span>
+								<span class="women1">: <?=$brands[$product->brand_id]['title']?></span></li>
 							</ul>
-								<a href="#" class="add-cart item_add">ADD TO CART</a>
+								<a id="product_add" data-id="<?=$product->id?>" href="#" class="add-cart item_add add_to_cart_link">ADD TO CART</a>
 							
 						</div>
 					</div>

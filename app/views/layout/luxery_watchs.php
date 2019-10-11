@@ -56,7 +56,7 @@ use app\widgets\currency\Currency;
 				</div>
 				<div class="col-md-6 top-header-left">
 					<div class="cart box_1">
-						<a href="checkout.html">
+						<a href="cart/">
 							 <div class="total">
 								<span class="simpleCart_total"></span></div>
 								<img src="images/cart-1.png" alt="" />
@@ -235,5 +235,6 @@ use app\widgets\currency\Currency;
 		});
 		</script>
 	<?php endif; ?>
+	<script src="js/main.js"></script>
 </body>
 </html>
