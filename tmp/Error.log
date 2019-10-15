@@ -160,3 +160,55 @@
 #################
 11 October 2019 17:52:05 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
 #################
+14 October 2019 20:01:30 | Номер: Исключение | Текс: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop.releated_product' doesn't exist | Файл: C:\OSPanel\domains\Framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Линия: 194
+#################
+14 October 2019 20:02:03 | Номер: Исключение | Текс: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'related_product.releated_id' in 'on clause' | Файл: C:\OSPanel\domains\Framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Линия: 194
+#################
+14 October 2019 20:19:24 | Номер: 2 | Текс: Creating default object from empty value | Файл: C:\OSPanel\domains\Framework\app\views\Product\view.php | Линия: 152
+#################
+14 October 2019 20:20:15 | Номер: 2 | Текс: Creating default object from empty value | Файл: C:\OSPanel\domains\Framework\app\views\Product\view.php | Линия: 152
+#################
+14 October 2019 20:21:05 | Номер: 2 | Текс: Creating default object from empty value | Файл: C:\OSPanel\domains\Framework\app\views\Product\view.php | Линия: 152
+#################
+14 October 2019 20:21:07 | Номер: 2 | Текс: Creating default object from empty value | Файл: C:\OSPanel\domains\Framework\app\views\Product\view.php | Линия: 152
+#################
+14 October 2019 20:21:57 | Номер: Исключение | Текс: Unsupported operand types | Файл: C:\OSPanel\domains\Framework\app\views\Product\view.php | Линия: 165
+#################
+14 October 2019 20:33:43 | Номер: Исключение | Текс: syntax error, unexpected 'endif' (T_ENDIF) | Файл: C:\OSPanel\domains\Framework\app\views\Product\view.php | Линия: 29
+#################
+14 October 2019 20:40:44 | Номер: Исключение | Текс: syntax error, unexpected ')' | Файл: C:\OSPanel\domains\Framework\app\views\Product\view.php | Линия: 29
+#################
+15 October 2019 13:16:11 | Номер: 8 | Текс: Array to string conversion | Файл: C:\OSPanel\domains\Framework\vendor\gabordemooij\redbean\RedBeanPHP\QueryWriter\AQueryWriter.php | Линия: 149
+#################
+15 October 2019 13:16:11 | Номер: 8 | Текс: Array to string conversion | Файл: C:\OSPanel\domains\Framework\vendor\gabordemooij\redbean\RedBeanPHP\QueryWriter\AQueryWriter.php | Линия: 149
+#################
+15 October 2019 13:18:22 | Номер: 8 | Текс: Array to string conversion | Файл: C:\OSPanel\domains\Framework\vendor\gabordemooij\redbean\RedBeanPHP\QueryWriter\AQueryWriter.php | Линия: 149
+#################
+15 October 2019 13:18:22 | Номер: 8 | Текс: Array to string conversion | Файл: C:\OSPanel\domains\Framework\vendor\gabordemooij\redbean\RedBeanPHP\QueryWriter\AQueryWriter.php | Линия: 149
+#################
+15 October 2019 13:19:36 | Номер: 8 | Текс: Array to string conversion | Файл: C:\OSPanel\domains\Framework\vendor\gabordemooij\redbean\RedBeanPHP\QueryWriter\AQueryWriter.php | Линия: 149
+#################
+15 October 2019 13:19:36 | Номер: 8 | Текс: Array to string conversion | Файл: C:\OSPanel\domains\Framework\vendor\gabordemooij\redbean\RedBeanPHP\QueryWriter\AQueryWriter.php | Линия: 149
+#################
+15 October 2019 14:15:59 | Номер: 2 | Текс: Use of undefined constant PATH - assumed 'PATH' (this will throw an Error in a future version of PHP) | Файл: C:\OSPanel\domains\Framework\app\models\Breadcrumbs.php | Линия: 13
+#################
+15 October 2019 14:16:43 | Номер: Исключение | Текс: Класс app\controllers\CategoryController не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 63
+#################
+15 October 2019 14:16:45 | Номер: Исключение | Текс: Класс app\controllers\CategoryController не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 63
+#################
+15 October 2019 14:35:18 | Номер: Исключение | Текс: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'o' in 'where clause' | Файл: C:\OSPanel\domains\Framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Линия: 194
+#################
+15 October 2019 14:37:17 | Номер: Исключение | Текс: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'o' in 'where clause' | Файл: C:\OSPanel\domains\Framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Линия: 194
+#################
+15 October 2019 14:37:17 | Номер: Исключение | Текс: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'o' in 'where clause' | Файл: C:\OSPanel\domains\Framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Линия: 194
+#################
+15 October 2019 14:38:06 | Номер: Исключение | Текс: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'o' in 'where clause' | Файл: C:\OSPanel\domains\Framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Линия: 194
+#################
+15 October 2019 14:38:07 | Номер: Исключение | Текс: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'o' in 'where clause' | Файл: C:\OSPanel\domains\Framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Линия: 194
+#################
+15 October 2019 14:38:32 | Номер: Исключение | Текс: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'o' in 'where clause' | Файл: C:\OSPanel\domains\Framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Линия: 194
+#################
+15 October 2019 14:38:34 | Номер: Исключение | Текс: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'o' in 'where clause' | Файл: C:\OSPanel\domains\Framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Линия: 194
+#################
+15 October 2019 14:38:34 | Номер: Исключение | Текс: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'o' in 'where clause' | Файл: C:\OSPanel\domains\Framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Линия: 194
+#################

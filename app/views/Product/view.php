@@ -3,8 +3,9 @@
 		<div class="container">
 			<div class="breadcrumbs-main">
 				<ol class="breadcrumb">
-					<li><a href="#">Home</a></li>
-					<li class="active">Single</li>
+					<!--<li><a href="#">Home</a></li>
+					<li class="active">Single</li>-->
+					<?= $breadcrumbs ?>
 				</ol>
 			</div>
 		</div>
@@ -17,17 +18,20 @@
 				<div class="col-md-9 single-main-left">
 				<div class="sngl-top">
 					<div class="col-md-5 single-top-left">	
+						
 						<div class="flexslider">
 							  <ul class="slides">
-								<li data-thumb="images/s-1.jpg">
-									<div class="thumb-image"> <img src="images/s-1.jpg" data-imagezoom="true" class="img-responsive" alt=""/> </div>
+								<?php if( $gallery ) : ?>
+								<?php foreach( $gallery as $elem => $object) : ?>
+									<li data-thumb="images/<?= $object->img ?>">
+										<div class="thumb-image"> <img src="images/<?= $object->img ?>" data-imagezoom="true" class="img-responsive" alt=""/> </div>
+									</li>
+								<?php endforeach; ?>
+								<?php else : ?>
+								<li data-thumb="images/no-image.jpg">
+									<div class="thumb-image"> <img src="images/no-image.jpg" data-imagezoom="true" class="img-responsive" alt=""/> </div>
 								</li>
-								<li data-thumb="images/s-2.jpg">
-									 <div class="thumb-image"> <img src="images/s-2.jpg" data-imagezoom="true" class="img-responsive" alt=""/> </div>
-								</li>
-								<li data-thumb="images/s-3.jpg">
-								   <div class="thumb-image"> <img src="images/s-3.jpg" data-imagezoom="true" class="img-responsive" alt=""/> </div>
-								</li> 
+								<?php endif; ?>
 							  </ul>
 						</div>
 						
@@ -60,17 +64,17 @@
 							}
 							?>
 							<?php if( !empty( $symbol_right ) ) : ?>
-								<h5><span class=" item_price"><?php echo $product->price * $value . ' ' . $symbol_right; ?></span></h5>
+								<h5><span id="base_price" data-base="<?= $product->price * $value ?>" data-symbolright="<?= $symbol_right ?>" class=" item_price"><?php echo $product->price * $value . ' ' . $symbol_right; ?></span></h5>
 							<?php else : ?>
-								<h5><span class=" item_price"><?php echo $symbol_left . ' ' . $product->price * $value; ?></span></h5>
+								<h5><span id="base_price" data-base="<?= $product->price * $value ?>" data-symbolleft="<?= $symbol_left ?>" class=" item_price"><?php echo $symbol_left . ' ' . $product->price * $value; ?></span></h5>
 							<?php endif; ?>
 
 							<?php if( $product->old_price ) : ?>
 
 								<?php if( !empty( $symbol_right ) ) : ?>
-									<small> <span class=" item_old_price"><?php echo $product->old_price * $value . ' ' . $symbol_right; ?></span></small>
+									<small> <span id="new_price" class=" item_old_price"><?php echo $product->old_price * $value . ' ' . $symbol_right; ?></span></small>
 								<?php else : ?>
-									<small> <span class=" item_old_price"><?php echo $symbol_left . ' ' . $product->old_price * $value; ?></span></small>
+									<small> <span id="new_price" class=" item_old_price"><?php echo $symbol_left . ' ' . $product->old_price * $value; ?></span></small>
 								<?php endif; ?>
 
 							<?php endif; ?>
@@ -78,20 +82,16 @@
 							<p><?=$product->content?></p>
 							<div class="available">
 								<ul>
+									<?php if( $modification ) : ?>
 									<li>Color
 										<select>
-										<option>Silver</option>
-										<option>Black</option>
-										<option>Dark Black</option>
-										<option>Red</option>
-									</select></li>
-								<li class="size-in">Size<select>
-									<option>Large</option>
-									<option>Medium</option>
-									<option>small</option>
-									<option>Large</option>
-									<option>small</option>
-								</select></li>
+											<option value="default">Select color</option>
+											<?php foreach($modification as $key => $mod) : ?>
+												<option data-price="<?= $mod->price * $value ?>" data_title="<?= $mod->title ?>" value="<?= $mod->id ?>"><?= $mod->title ?></option>
+											<?php endforeach; ?>
+										</select>
+									</li>
+									<?php endif; ?>
 								<div class="clearfix"> </div>
 							</ul>
 						</div>
@@ -103,7 +103,7 @@
 								<li><span>BRAND</span>
 								<span class="women1">: <?=$brands[$product->brand_id]['title']?></span></li>
 							</ul>
-								<a id="product_add" data-id="<?=$product->id?>" href="#" class="add-cart item_add add_to_cart_link">ADD TO CART</a>
+								<a id="productAdd" data-id="<?=$product->id?>" href="cart/add/?id=<?=$product->id?>" class="add-cart addToCartLink">ADD TO CART</a>
 							
 						</div>
 					</div>
@@ -146,50 +146,70 @@
 				</li>
 	 		</ul>
 				</div>
+				<?php if( !empty($related) ) : ?>
 				<div class="latestproducts">
 					<div class="product-one">
+						<h4>C этим товаром также покупают:</h4>
+						<?php foreach($related as $elem => $content) : ?>
 						<div class="col-md-4 product-left p-left"> 
 							<div class="product-main simpleCart_shelfItem">
-								<a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/p-1.png" alt="" /></a>
+								<a href="product/<?= $content['alias'] ?>" class="mask"><img class="img-responsive zoom-img" src="images/<?= $content['img'] ?>" alt="" /></a>
 								<div class="product-bottom">
-									<h3>Smart Watches</h3>
+									<h3><?= $content['title']; ?></h3>
 									<p>Explore Now</p>
-									<h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span></h4>
+									<h4><a class="item_add" href="#"><i></i></a> <span class=" item_price"><?= $content['price']; ?></span></h4>
+									<?php if( $content['old_price'] ) : ?>
+
+										<?php if( !empty( $symbol_right ) ) : ?>
+											<small> <span class=" item_old_price"><?php echo $content['old_price'] * $value . ' ' . $symbol_right; ?></span></small>
+										<?php else : ?>
+											<small> <span class=" item_old_price"><?php echo $symbol_left . ' ' . $content['old_price'] * $value; ?></span></small>
+										<?php endif; ?>
+
+									<?php endif; ?>
 								</div>
 								<div class="srch">
 									<span>-50%</span>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4 product-left p-left"> 
-							<div class="product-main simpleCart_shelfItem">
-								<a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/p-2.png" alt="" /></a>
-								<div class="product-bottom">
-									<h3>Smart Watches</h3>
-									<p>Explore Now</p>
-									<h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span></h4>
-								</div>
-								<div class="srch">
-									<span>-50%</span>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 product-left p-left"> 
-							<div class="product-main simpleCart_shelfItem">
-								<a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/p-3.png" alt="" /></a>
-								<div class="product-bottom">
-									<h3>Smart Watches</h3>
-									<p>Explore Now</p>
-									<h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span></h4>
-								</div>
-								<div class="srch">
-									<span>-50%</span>
-								</div>
-							</div>
-						</div>
+						<?php endforeach; ?>
 						<div class="clearfix"></div>
 					</div>
 				</div>
+				<?php endif; ?>
+				<?php if( !empty($recentlyViewed) ) : ?>
+				<div class="latestproducts">
+					<div class="product-one">
+						<h4>Просмотренные:</h4>
+						<?php foreach($recentlyViewed as $elem => $content) : ?>
+						<div class="col-md-4 product-left p-left"> 
+							<div class="product-main simpleCart_shelfItem">
+								<a href="product/<?= $content['alias'] ?>" class="mask"><img class="img-responsive zoom-img" src="images/<?= $content['img'] ?>" alt="" /></a>
+								<div class="product-bottom">
+									<h3><?= $content['title']; ?></h3>
+									<p>Explore Now</p>
+									<h4><a class="item_add" href="#"><i></i></a> <span class=" item_price"><?= $content['price']; ?></span></h4>
+									<?php if( $content['old_price'] ) : ?>
+
+										<?php if( !empty( $symbol_right ) ) : ?>
+											<small> <span class=" item_old_price"><?php echo $content['old_price'] * $value . ' ' . $symbol_right; ?></span></small>
+										<?php else : ?>
+											<small> <span class=" item_old_price"><?php echo $symbol_left . ' ' . $content['old_price'] * $value; ?></span></small>
+										<?php endif; ?>
+
+									<?php endif; ?>
+								</div>
+								<div class="srch">
+									<span>-50%</span>
+								</div>
+							</div>
+						</div>
+						<?php endforeach; ?>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				<?php endif; ?>
 			</div>
 				<div class="col-md-3 single-right">
 					<div class="w_sidebar">

@@ -1,37 +1,55 @@
 
 /* CART */
 
-$('#product_add').on('click', function(e){
+$('body').on('click', '.addToCartLink', function(e){
     e.preventDefault();
-    var id = $(this).data('id');
-    var many = 23;
+    var id = $(this).data('id'),
+        mod = $('.available select').val();
     $.ajax({
-        url: 'cart/add',
-        data: {id: id, many: many},
+        url: '/public/cart/add',
+        data: {id: id, mod: mod},
         type: 'GET',
-        seccess: function(res){
+        success: function(res){
             showCart(res);
-            //alert('seccess');
         },
         error: function(){
             alert('error');
         }
     });
-    //console.log(id);
+    console.log(mod, id);
 });
 
 function showCart(cart){
     console.log(cart);
 }
 
-var button = document.getElementsByClassName('add_to_cart_link');
-var button2 = document.getElementById('product_add');
-console.log(button);
-console.log(button2);
-
 
 /* CART */
 
 $('#currency').change(function(){
     window.location = 'currency/change?curr=' + $(this).val();
+});
+
+$('.available select').on('change', function(){
+    var id = $(this).val(),
+        color = $(this).find('option').filter(':selected').data('title'),
+        price = $(this).find('option').filter(':selected').data('price'),
+        basePrice = $('#base_price').data('base');
+
+    var SymbolRight = $('#base_price').data('symbolright'),
+        SymbolLeft = $('#base_price').data('symbolleft');
+
+    if( SymbolRight ){
+        allPrice = price + SymbolRight + ' ';
+        allBasePrice = basePrice + SymbolRight + ' ';
+    }else{
+        allPrice = ' ' + SymbolLeft + price;
+        allBasePrice = ' ' + SymbolLeft + basePrice;
+    }
+
+    if( price ){
+        $('#base_price').text(allPrice);
+    }else{
+        $('#base_price').text(allBasePrice);
+    }
 });

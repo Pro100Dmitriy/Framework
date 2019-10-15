@@ -33,7 +33,7 @@ class Router
         if( !isset( $route['action'] ) ) // если action не задан подставляется стандартное значение
           $route['action'] = 'index';
         self::$route = $route;
-        debug(self::$route);
+        //debug(self::$route);
         return true;
       }
     }

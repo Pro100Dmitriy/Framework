@@ -172,12 +172,12 @@ use app\widgets\currency\Currency;
 	<!--footer-end-->	
 
 	<!--Scripts-->
-	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="js/resours/jquery-1.11.0.min.js"></script>
 	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-	<script src="js/simpleCart.min.js"> </script>
-	<script type="text/javascript" src="js/memenu.js"></script>
+	<script src="js/resours/simpleCart.min.js"> </script>
+	<script type="text/javascript" src="js/resours/memenu.js"></script>
 	<script>$(document).ready(function(){$(".memenu").memenu();});</script>	
-	<script src="js/jquery.easydropdown.js"></script>	
+	<script src="js/resours/jquery.easydropdown.js"></script>	
 	<script type="text/javascript">
 		$(function() {
 		
@@ -200,8 +200,8 @@ use app\widgets\currency\Currency;
 		
 		});
 	</script>		
-	<script src="js/imagezoom.js"></script>
-	<script defer src="js/jquery.flexslider.js"></script>
+	<script src="js/resours/imagezoom.js"></script>
+	<script defer src="js/resours/jquery.flexslider.js"></script>
 	<script>
 	// Can also be used with $(document).ready()
 	$(window).load(function() {
@@ -213,7 +213,7 @@ use app\widgets\currency\Currency;
 	</script>
 	<!-- SLIDER -->
 	<?php if( strpos( $slider, 'indexAction' ) ): ?>
-		<script src="js/responsiveslides.min.js"></script>
+		<script src="js/resours/responsiveslides.min.js"></script>
 		<script>
 		// You can also use "$(window).load(function() {"
 		$(function () {
@@ -235,6 +235,16 @@ use app\widgets\currency\Currency;
 		});
 		</script>
 	<?php endif; ?>
+	
+	<?php
+			// вывод всех проводимых запросов
+		$logs = R::getDatabaseAdapter()
+		->getDatabase()
+		->getLogger();
+
+		debug( $logs->grep( 'SELECT' ) );
+		?>
+
 	<script src="js/main.js"></script>
 </body>
 </html>

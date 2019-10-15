@@ -21,7 +21,7 @@ $app_path = preg_replace('#[^/]+$#','',$app_path);
 //http://framework
 $app_path = str_replace("/public/", '', $app_path);
 
- define( 'PAH', $app_path );
+ define( 'PATH', $app_path );
 
 
 $RouterAdd = [
