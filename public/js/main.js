@@ -4,6 +4,7 @@
 $('body').on('click', '.addToCartLink', function(e){
     e.preventDefault();
     var id = $(this).data('id'),
+        qty = 1,
         mod = $('.available select').val();
     $.ajax({
         url: '/public/cart/add',
@@ -16,11 +17,20 @@ $('body').on('click', '.addToCartLink', function(e){
             alert('error');
         }
     });
-    console.log(mod, id);
+    console.log(mod, id, qty);
 });
 
 function showCart(cart){
-    console.log(cart);
+    if( $.trim(cart) === "<h3>Корзина пустая</h3>" ){
+        $('#cart .modal-footer a, #cart .modal-footer .btn-danger').css('display', 'none');
+        console.log(cart);
+    }else{
+        $('#cart .modal-footer a, #cart .modal-footer .btn-danger').css('display', 'inline-block');
+        console.log(cart);
+    }
+    $('#cart .modal-body').html(cart);
+    $('#cart').modal();
+    //console.log(cart);
 }
 
 

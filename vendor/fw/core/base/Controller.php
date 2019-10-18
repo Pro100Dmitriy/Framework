@@ -34,4 +34,16 @@ abstract class Controller
     $this->meta = $meta;
   }
 
+  public function isAjax() // проверяет запрос пришел через ajax или нет, возвращает лиюо true либо false
+  {
+    return isset($_SERVER['HTTP_X_REQUESTED_WITH']) && $_SERVER['HTTP_X_REQUESTED_WITH'] === 'XMLHttpRequest';
+  }
+
+  public function laodView($view, $vars = [])
+  {
+    extract($vars);
+    require APP . "/views/{$this->route['controller']}/{$view}.php";
+    die;
+  }
+
 }

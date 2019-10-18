@@ -104,6 +104,7 @@ use app\widgets\currency\Currency;
 	<!--bottom-header-->
 
 	<div class="container">
+		<?php debug($_SESSION); ?>
 		<?= $content ?> 
 	</div>
 
@@ -171,8 +172,30 @@ use app\widgets\currency\Currency;
 	</div>
 	<!--footer-end-->	
 
+	<div class="modal fade" id="cart" tabindex="-1" role="dialog">
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					<h4 class="modal-title">Modal title</h4>
+				</div>
+				<div class="modal-body">
+					<!-- body -->
+
+					<!-- body -->
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					<a href="cart/view" type="button" class="btn btn-primary">Checlout</a>
+					<button type="button" class="btn btn-danger" onclick="clearCart()">Clear cart</button>
+				</div>
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
 	<!--Scripts-->
 	<script src="js/resours/jquery-1.11.0.min.js"></script>
+	<script src="js/resours/bootstrap.min.js"></script>
 	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<script src="js/resours/simpleCart.min.js"> </script>
 	<script type="text/javascript" src="js/resours/memenu.js"></script>

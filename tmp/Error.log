@@ -212,3 +212,205 @@
 #################
 15 October 2019 14:38:34 | Номер: Исключение | Текс: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'o' in 'where clause' | Файл: C:\OSPanel\domains\Framework\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Линия: 194
 #################
+16 October 2019 20:14:09 | Номер: 8 | Текс: Undefined property: app\controllers\CartController::$prefix | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\Controller.php | Линия: 45
+#################
+16 October 2019 20:14:46 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
+#################
+16 October 2019 20:15:10 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
+#################
+16 October 2019 20:15:38 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
+#################
+16 October 2019 20:15:41 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
+#################
+16 October 2019 20:15:57 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
+#################
+16 October 2019 20:16:13 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
+#################
+16 October 2019 20:17:13 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
+#################
+16 October 2019 20:17:24 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
+#################
+16 October 2019 20:17:36 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
+#################
+16 October 2019 20:18:03 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
+#################
+16 October 2019 20:18:48 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
+#################
+16 October 2019 20:19:00 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
+#################
+16 October 2019 20:19:09 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
+#################
+16 October 2019 20:19:15 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
+#################
+16 October 2019 20:19:34 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
+#################
+16 October 2019 20:19:40 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
+#################
+16 October 2019 20:19:59 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
+#################
+16 October 2019 20:20:05 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
+#################
+16 October 2019 20:21:04 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
+#################
+16 October 2019 20:21:29 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
+#################
+16 October 2019 20:23:00 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
+#################
+16 October 2019 20:23:41 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
+#################
+16 October 2019 20:24:03 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
+#################
+16 October 2019 20:24:30 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
+#################
+16 October 2019 20:24:45 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 31
+#################
+16 October 2019 20:27:02 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 32
+#################
+16 October 2019 20:27:03 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 32
+#################
+16 October 2019 20:27:04 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 32
+#################
+16 October 2019 20:27:05 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 32
+#################
+16 October 2019 20:27:38 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 32
+#################
+16 October 2019 20:27:39 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 32
+#################
+16 October 2019 20:28:13 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 32
+#################
+16 October 2019 20:28:55 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 32
+#################
+16 October 2019 20:30:55 | Номер: 8 | Текс: Undefined property: app\controllers\CartController::$prefix | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\Controller.php | Линия: 45
+#################
+16 October 2019 20:34:03 | Номер: 8 | Текс: Undefined property: app\controllers\CartController::$prefix | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\Controller.php | Линия: 45
+#################
+16 October 2019 20:34:34 | Номер: 8 | Текс: Undefined property: app\controllers\CartController::$prefix | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\Controller.php | Линия: 45
+#################
+16 October 2019 20:55:17 | Номер: 8 | Текс: Trying to get property 'id' of non-object | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 20
+#################
+16 October 2019 20:55:26 | Номер: 8 | Текс: Trying to get property 'id' of non-object | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 20
+#################
+16 October 2019 21:12:01 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+16 October 2019 21:12:22 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+16 October 2019 21:16:00 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:10:36 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:10:50 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:11:20 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:11:46 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:17:11 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:18:23 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:18:25 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:18:48 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:19:22 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:20:06 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:20:28 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:20:35 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:20:58 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:21:25 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:23:03 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:23:27 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:23:36 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:23:43 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:24:51 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:25:04 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:25:12 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:26:22 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:27:51 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 32
+#################
+18 October 2019 08:28:03 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 32
+#################
+18 October 2019 08:28:35 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 32
+#################
+18 October 2019 08:29:05 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 32
+#################
+18 October 2019 08:29:21 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 32
+#################
+18 October 2019 08:29:33 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 32
+#################
+18 October 2019 08:30:25 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 32
+#################
+18 October 2019 08:30:51 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 32
+#################
+18 October 2019 08:31:58 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:32:17 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:32:47 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:32:58 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:33:13 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:33:42 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:34:37 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:35:06 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:35:17 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:35:31 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:35:48 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:38:29 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:38:40 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:38:54 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:39:03 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:39:48 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:41:22 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 32
+#################
+18 October 2019 08:42:23 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 32
+#################
+18 October 2019 08:42:38 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 32
+#################
+18 October 2019 08:42:42 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 32
+#################
+18 October 2019 08:43:27 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 32
+#################
+18 October 2019 08:44:40 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:46:58 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:47:07 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:47:19 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:47:59 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:48:32 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:48:44 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################
+18 October 2019 08:49:20 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
+#################

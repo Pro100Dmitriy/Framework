@@ -22,6 +22,7 @@ class View
   {
     if( is_array($vars) ) extract($vars);
     $file_view = APP . "/views/{$this->route['controller']}/{$this->route['action']}.php"; // сохраняет путь к контенту
+    debug($file_view);
     ob_start();
     if( is_file($file_view) ){ // если это файл
       // start if

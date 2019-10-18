@@ -3069,3 +3069,8 @@ ul.tag-men {
 }
 }
 /*--media-quaries-end-here--*/
+
+
+#cart .modal-body .table-resposive .img-cart{
+    height: 50px !important;
+}

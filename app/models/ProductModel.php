@@ -1,10 +1,10 @@
 <?php
 namespace app\models;
 
-class ProductModel extends AppModel
+class ProductModel extends AppModel // просмотренные товары
 {
 
-  public function setRecentlyViewed($id)
+  public function setRecentlyViewed($id) // установка товара в куки
   {
     $recentlyViewed = $this->getAllRecentlyViewed();
     if( !$recentlyViewed ){
@@ -19,7 +19,7 @@ class ProductModel extends AppModel
     }
   }
 
-  public function getRecentlyViewed()
+  public function getRecentlyViewed() // получение послднего товара
   {
     if( !empty( $_COOKIE['recentlyViewed'] ) ){
       $recentlyViewed = $_COOKIE['recentlyViewed'];
@@ -29,7 +29,7 @@ class ProductModel extends AppModel
     return false;
   }
 
-  public function getAllRecentlyViewed()
+  public function getAllRecentlyViewed() // получение всех последних товаров
   {
     if( !empty( $_COOKIE['recentlyViewed'] ) ){
       return $_COOKIE['recentlyViewed'];
