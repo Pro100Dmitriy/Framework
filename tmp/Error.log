@@ -414,3 +414,79 @@
 #################
 18 October 2019 08:49:20 | Номер: 8 | Текс: Undefined index: QTY | Файл: C:\OSPanel\domains\Framework\app\models\Cart.php | Линия: 29
 #################
+21 October 2019 13:39:04 | Номер: 8 | Текс: Undefined index: cart.curancy | Файл: C:\OSPanel\domains\Framework\app\views\layout\luxery_watchs.php | Линия: 63
+#################
+21 October 2019 13:39:20 | Номер: 8 | Текс: Undefined index: cart.curancy | Файл: C:\OSPanel\domains\Framework\app\views\layout\luxery_watchs.php | Линия: 63
+#################
+21 October 2019 13:40:45 | Номер: 8 | Текс: Undefined index: summ | Файл: C:\OSPanel\domains\Framework\app\views\layout\luxery_watchs.php | Линия: 63
+#################
+21 October 2019 13:41:42 | Номер: 8 | Текс: Undefined index: cart.summ | Файл: C:\OSPanel\domains\Framework\app\views\layout\luxery_watchs.php | Линия: 63
+#################
+21 October 2019 13:41:58 | Номер: 8 | Текс: Undefined index: cart.summ | Файл: C:\OSPanel\domains\Framework\app\views\layout\luxery_watchs.php | Линия: 63
+#################
+21 October 2019 13:55:43 | Номер: Исключение | Текс: Класс app\controllers\ShowController не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 63
+#################
+21 October 2019 14:48:04 | Номер: 8 | Текс: Undefined index: id | Файл: C:\OSPanel\domains\Framework\app\controllers\CartController.php | Линия: 50
+#################
+21 October 2019 14:48:36 | Номер: 8 | Текс: Undefined index: id | Файл: C:\OSPanel\domains\Framework\app\controllers\CartController.php | Линия: 50
+#################
+21 October 2019 14:48:37 | Номер: 8 | Текс: Undefined index: id | Файл: C:\OSPanel\domains\Framework\app\controllers\CartController.php | Линия: 50
+#################
+21 October 2019 14:48:38 | Номер: 8 | Текс: Undefined index: id | Файл: C:\OSPanel\domains\Framework\app\controllers\CartController.php | Линия: 50
+#################
+21 October 2019 14:48:38 | Номер: 8 | Текс: Undefined index: id | Файл: C:\OSPanel\domains\Framework\app\controllers\CartController.php | Линия: 50
+#################
+21 October 2019 14:53:17 | Номер: Исключение | Текс: indexAction не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 58
+#################
+21 October 2019 14:55:23 | Номер: 8 | Текс: Undefined index: id | Файл: C:\OSPanel\domains\Framework\app\controllers\CartController.php | Линия: 50
+#################
+21 October 2019 14:56:12 | Номер: 2 | Текс: Use of undefined constant nul - assumed 'nul' (this will throw an Error in a future version of PHP) | Файл: C:\OSPanel\domains\Framework\app\controllers\CartController.php | Линия: 22
+#################
+21 October 2019 14:56:15 | Номер: 2 | Текс: Use of undefined constant nul - assumed 'nul' (this will throw an Error in a future version of PHP) | Файл: C:\OSPanel\domains\Framework\app\controllers\CartController.php | Линия: 22
+#################
+21 October 2019 14:56:46 | Номер: 2 | Текс: Use of undefined constant nul - assumed 'nul' (this will throw an Error in a future version of PHP) | Файл: C:\OSPanel\domains\Framework\app\controllers\CartController.php | Линия: 22
+#################
+22 October 2019 15:00:51 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 32
+#################
+22 October 2019 15:01:08 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 32
+#################
+22 October 2019 15:01:10 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 32
+#################
+22 October 2019 15:16:16 | Номер: Исключение | Текс: indexAction не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 58
+#################
+22 October 2019 15:25:20 | Номер: 8 | Текс: Undefined index: %QUERY | Файл: C:\OSPanel\domains\Framework\app\controllers\SearchController.php | Линия: 12
+#################
+23 October 2019 19:27:37 | Номер: Исключение | Текс: indexAction не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 58
+#################
+23 October 2019 19:28:10 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 32
+#################
+23 October 2019 19:28:12 | Номер: Исключение | Текс: Такой вид не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\base\View.php | Линия: 32
+#################
+23 October 2019 19:36:09 | Номер: 8 | Текс: Undefined index: query | Файл: C:\OSPanel\domains\Framework\app\controllers\SearchController.php | Линия: 24
+#################
+23 October 2019 19:36:29 | Номер: 8 | Текс: Undefined index: query | Файл: C:\OSPanel\domains\Framework\app\controllers\SearchController.php | Линия: 24
+#################
+23 October 2019 19:36:59 | Номер: Исключение | Текс: syntax error, unexpected '$query' (T_VARIABLE) | Файл: C:\OSPanel\domains\Framework\app\controllers\SearchController.php | Линия: 25
+#################
+23 October 2019 19:37:00 | Номер: Исключение | Текс: syntax error, unexpected '$query' (T_VARIABLE) | Файл: C:\OSPanel\domains\Framework\app\controllers\SearchController.php | Линия: 25
+#################
+23 October 2019 19:37:06 | Номер: 8 | Текс: Undefined index: query | Файл: C:\OSPanel\domains\Framework\app\controllers\SearchController.php | Линия: 25
+#################
+23 October 2019 19:39:50 | Номер: 8 | Текс: Undefined variable: products | Файл: C:\OSPanel\domains\Framework\app\views\Search\index.php | Линия: 1
+#################
+23 October 2019 19:43:50 | Номер: 8 | Текс: compact(): Undefined variable: products | Файл: C:\OSPanel\domains\Framework\app\controllers\SearchController.php | Линия: 31
+#################
+23 October 2019 19:44:15 | Номер: 8 | Текс: Undefined index: s | Файл: C:\OSPanel\domains\Framework\app\controllers\SearchController.php | Линия: 26
+#################
+23 October 2019 19:44:17 | Номер: 8 | Текс: Undefined index: s | Файл: C:\OSPanel\domains\Framework\app\controllers\SearchController.php | Линия: 26
+#################
+23 October 2019 20:00:39 | Номер: 8 | Текс: Undefined variable: hit | Файл: C:\OSPanel\domains\Framework\app\views\Search\index.php | Линия: 39
+#################
+23 October 2019 20:00:45 | Номер: 8 | Текс: Undefined variable: hit | Файл: C:\OSPanel\domains\Framework\app\views\Search\index.php | Линия: 39
+#################
+23 October 2019 20:01:46 | Номер: 8 | Текс: Object of class RedBeanPHP\OODBBean could not be converted to number | Файл: C:\OSPanel\domains\Framework\app\views\Search\index.php | Линия: 39
+#################
+23 October 2019 21:04:48 | Номер: 8 | Текс: Undefined variable: product | Файл: C:\OSPanel\domains\Framework\app\views\Search\index.php | Линия: 70
+#################
+30 October 2019 18:17:06 | Номер: Исключение | Текс: Класс app\controllers\UserController не найден | Файл: C:\OSPanel\domains\Framework\vendor\fw\core\Router.php | Линия: 63
+#################

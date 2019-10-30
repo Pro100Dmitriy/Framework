@@ -26,3 +26,7 @@ function redirect($http = false) // разобрать
   header("Location: $redirect");
   exit;
 }
+function h($elem)
+{
+  htmlspecialchars($elem);
+}

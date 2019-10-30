@@ -9,7 +9,7 @@ use app\widgets\currency\Currency;
 		$slider = " ";
 	} ?>
 
-	<?php	if( strpos( $slider, 'MainController' ) ) : ?>
+	<?php	if( strpos( $slider, 'MainController' ) || strpos( $slider, 'SearchController' )  ) : ?>
 		<base href="../public/"/>
 	<?php else : ?>
 		<base href="../"/>
@@ -28,7 +28,10 @@ use app\widgets\currency\Currency;
 	<link href="css/memenu.css" rel="stylesheet" type="text/css" media="all" />
 	<link href="css/Mystyles.css" rel="stylesheet" type="text/css"/>
 	<link href="css/flexslider.css" rel="stylesheet" type="text/css" media="screen" />
-			
+	<script>
+		var path = '<?=PATH;?>';
+	</script>		
+
 </head>
 <body> 
 	
@@ -44,24 +47,43 @@ use app\widgets\currency\Currency;
 							</select>
 						</div>
 						<div class="box1">
+							<div class="btn-group">
+								<a class="dropdown-toggle" data-toggle="dropdown">Account<span class="caret"></span>
+									<ul class="dropdown-menu">
+										<?php if( !empty($_SESSION['user']) ) : ?>
+											<li><a href="user/profile">Добро пожаловать, <?= h($_SESSION['user']['name']); ?></a></li>
+											<li><a href="user/logout">Log out</a></li>
+										<?php else : ?>
+											<li><a href="user/login">Log in</a></li>
+											<li><a href="user/signup">Register</a></li>
+										<?php endif; ?>
+									</ul>
+								</a>
+							</div>
+						</div>
+						<!--<div class="box1">
 							<select tabindex="4" class="dropdown">
 								<option value="" class="label">English :</option>
 								<option value="1">English</option>
 								<option value="2">French</option>
 								<option value="3">German</option>
 							</select>
-						</div>
+						</div>-->
 						<div class="clearfix"></div>
 					</div>
 				</div>
 				<div class="col-md-6 top-header-left">
 					<div class="cart box_1">
-						<a href="cart/">
-							 <div class="total">
-								<span class="simpleCart_total"></span></div>
+						<a href="cart/show" onclick="getCart(); return false;">
+							<div class="total">
 								<img src="images/cart-1.png" alt="" />
+								<?php if( !empty($_SESSION['cart']) ) : ?>
+									<span class="simpleCart_total"><?= $_SESSION['cart.currency']['symbol_left'] . $_SESSION['cart.summ'] . $_SESSION['cart.currency']['symbol_right']  ?></span>																
+								<?php else : ?>
+									<span class="simpleCart_total">Empty Cart</span>								
+								<?php endif; ?>
+							</div>
 						</a>
-						<p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p>
 						<div class="clearfix"> </div>
 					</div>
 				</div>
@@ -93,8 +115,15 @@ use app\widgets\currency\Currency;
 			</div>
 			<div class="col-md-3 header-right"> 
 				<div class="search-bar">
-					<input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
-					<input type="submit" value="">
+					<form class="search" method="get" autocomplete="off">
+						<input class="typeahead" id="typeahead" type="text" name="s" placeholder="Search">
+						<input type="submit" value="">
+					</form>
+					<!--<div id="the-basics">
+						<input class="typeahead" id="typeahead" type="text" placeholder="Search">
+					</div>
+					<!--<input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
+					<input type="submit" value="">-->
 				</div>
 			</div>
 			<div class="clearfix"> </div>
@@ -104,7 +133,7 @@ use app\widgets\currency\Currency;
 	<!--bottom-header-->
 
 	<div class="container">
-		<?php debug($_SESSION); ?>
+		<?php //debug($_SESSION); ?>
 		<?= $content ?> 
 	</div>
 
@@ -195,6 +224,7 @@ use app\widgets\currency\Currency;
 
 	<!--Scripts-->
 	<script src="js/resours/jquery-1.11.0.min.js"></script>
+	<script src="js/resours/typeahead.bundle.js"></script>
 	<script src="js/resours/bootstrap.min.js"></script>
 	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<script src="js/resours/simpleCart.min.js"> </script>

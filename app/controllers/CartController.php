@@ -10,16 +10,16 @@ class CartController extends AppController
 
   public function viewAction()
   {
-    debug($_GET);
+    //debug($_GET);
   }
 
   public function addAction()
   {
-    debug($_GET);
+    //debug($_GET);
     
     $id = !empty($_GET['id']) ? (int) $_GET['id'] : null;
     $mod_id = !empty($_GET['mod']) ? (int) $_GET['mod'] : null;
-    $qty = !empty($_GET['qty']) ? (int) $_GET['qty'] : null;
+    $qty = !empty($_GET['qty']) ? (int) $_GET['qty'] : nul;;
     $mod = null;
 
     if($id){
@@ -38,6 +38,36 @@ class CartController extends AppController
     }
     redirect();
 
+  }
+
+  public function showAction()
+  {
+    $this->laodView('cart_model');
+  }
+
+  public function deleteAction()
+  {
+    $id = $_GET['id'];
+    if( isset($_SESSION['cart'][$id]) ){
+      $cart = new Cart();
+      $cart->deleteItem($id);
+    }
+    if( $this->isAjax() ){
+      $this->laodView('cart_model');
+    }
+    redirect();
+  }
+
+  public function clearAction()
+  {
+    unset( $_SESSION['cart'] );
+    unset( $_SESSION['cart.summ'] );
+    unset( $_SESSION['cart.qty'] );
+    unset( $_SESSION['cart.currency'] );
+    if( $this->isAjax() ){
+      $this->laodView('cart_model');
+    }
+    redirect();
   }
 
   
