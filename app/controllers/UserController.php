@@ -18,7 +18,9 @@ class UserController extends AppController
       $user = new UserModel;
       $data = $_POST;
       $user->load($data);
-      debug($user);
+      if($user){
+        debug($user);
+      }
       die;
     }
   }
